@@ -12,6 +12,1176 @@ exports[`BeerList Component should render loading 1`] = `
 </div>
 `;
 
+exports[`BeerList Component should render with data 1`] = `
+<div>
+  <div
+    class="container"
+  >
+    <div>
+      Sorry something went wrong
+    </div>
+    <ul
+      class="beerList"
+    >
+      <li
+        class="beerItem"
+      >
+        <a
+          href="/beer-info/c4f2KE"
+        >
+          <h2
+            class="beerName"
+          >
+            'Murican Pilsner
+          </h2>
+          <h3
+            class="beerSubtitle"
+          >
+            American Pilsener
+          </h3>
+          <img
+            alt="'Murican Pilsner"
+            class="beerImage"
+            src="https://brewerydb-images.s3.amazonaws.com/beer/c4f2KE/upload_jjKJ7g-medium.png"
+          />
+        </a>
+      </li>
+      <li
+        class="beerItem"
+      >
+        <a
+          href="/beer-info/zTTWa2"
+        >
+          <h2
+            class="beerName"
+          >
+            11.5° PLATO
+          </h2>
+          <h3
+            class="beerSubtitle"
+          >
+            Session IPA
+          </h3>
+          <img
+            alt="11.5° PLATO"
+            class="beerImage"
+            src="https://res.cloudinary.com/teepublic/image/private/s--TsohP-Cw--/t_Resized%20Artwork/c_fit,g_north_west,h_954,w_954/co_191919,e_outline:48/co_191919,e_outline:inner_fill:48/co_ffffff,e_outline:48/co_ffffff,e_outline:inner_fill:48/co_bbbbbb,e_outline:3:1000/c_mpad,g_center,h_1260,w_1260/b_rgb:eeeeee/c_limit,f_auto,h_630,q_90,w_630/v1513360267/production/designs/2182073_1.jpg"
+          />
+        </a>
+      </li>
+      <li
+        class="beerItem"
+      >
+        <a
+          href="/beer-info/zfP2fK"
+        >
+          <h2
+            class="beerName"
+          >
+            12th Of Never
+          </h2>
+          <h3
+            class="beerSubtitle"
+          >
+            American Pale
+          </h3>
+          <img
+            alt="12th Of Never"
+            class="beerImage"
+            src="https://brewerydb-images.s3.amazonaws.com/beer/zfP2fK/upload_nSMNjh-medium.png"
+          />
+        </a>
+      </li>
+      <li
+        class="beerItem"
+      >
+        <a
+          href="/beer-info/xwYSL2"
+        >
+          <h2
+            class="beerName"
+          >
+            15th Anniversary Ale
+          </h2>
+          <h3
+            class="beerSubtitle"
+          >
+            ESB
+          </h3>
+          <img
+            alt="15th Anniversary Ale"
+            class="beerImage"
+            src="https://res.cloudinary.com/teepublic/image/private/s--TsohP-Cw--/t_Resized%20Artwork/c_fit,g_north_west,h_954,w_954/co_191919,e_outline:48/co_191919,e_outline:inner_fill:48/co_ffffff,e_outline:48/co_ffffff,e_outline:inner_fill:48/co_bbbbbb,e_outline:3:1000/c_mpad,g_center,h_1260,w_1260/b_rgb:eeeeee/c_limit,f_auto,h_630,q_90,w_630/v1513360267/production/designs/2182073_1.jpg"
+          />
+        </a>
+      </li>
+      <li
+        class="beerItem"
+      >
+        <a
+          href="/beer-info/UJGpVS"
+        >
+          <h2
+            class="beerName"
+          >
+            16 So Fine Red Wheat Wine
+          </h2>
+          <h3
+            class="beerSubtitle"
+          >
+            Wheatwine
+          </h3>
+          <img
+            alt="16 So Fine Red Wheat Wine"
+            class="beerImage"
+            src="https://brewerydb-images.s3.amazonaws.com/beer/UJGpVS/upload_K4w7gB-medium.png"
+          />
+        </a>
+      </li>
+      <li
+        class="beerItem"
+      >
+        <a
+          href="/beer-info/vz5JZ1"
+        >
+          <h2
+            class="beerName"
+          >
+            1794 The Fergal Project
+          </h2>
+          <h3
+            class="beerSubtitle"
+          >
+            American Stout
+          </h3>
+          <img
+            alt="1794 The Fergal Project"
+            class="beerImage"
+            src="https://res.cloudinary.com/teepublic/image/private/s--TsohP-Cw--/t_Resized%20Artwork/c_fit,g_north_west,h_954,w_954/co_191919,e_outline:48/co_191919,e_outline:inner_fill:48/co_ffffff,e_outline:48/co_ffffff,e_outline:inner_fill:48/co_bbbbbb,e_outline:3:1000/c_mpad,g_center,h_1260,w_1260/b_rgb:eeeeee/c_limit,f_auto,h_630,q_90,w_630/v1513360267/production/designs/2182073_1.jpg"
+          />
+        </a>
+      </li>
+      <li
+        class="beerItem"
+      >
+        <a
+          href="/beer-info/LcpeBb"
+        >
+          <h2
+            class="beerName"
+          >
+            17th Saison
+          </h2>
+          <h3
+            class="beerSubtitle"
+          >
+            Saison
+          </h3>
+          <img
+            alt="17th Saison"
+            class="beerImage"
+            src="https://res.cloudinary.com/teepublic/image/private/s--TsohP-Cw--/t_Resized%20Artwork/c_fit,g_north_west,h_954,w_954/co_191919,e_outline:48/co_191919,e_outline:inner_fill:48/co_ffffff,e_outline:48/co_ffffff,e_outline:inner_fill:48/co_bbbbbb,e_outline:3:1000/c_mpad,g_center,h_1260,w_1260/b_rgb:eeeeee/c_limit,f_auto,h_630,q_90,w_630/v1513360267/production/designs/2182073_1.jpg"
+          />
+        </a>
+      </li>
+      <li
+        class="beerItem"
+      >
+        <a
+          href="/beer-info/Yd8G8r"
+        >
+          <h2
+            class="beerName"
+          >
+            18th Anniversary Belgian Tripel
+          </h2>
+          <h3
+            class="beerSubtitle"
+          >
+            Belgian Tripel
+          </h3>
+          <img
+            alt="18th Anniversary Belgian Tripel"
+            class="beerImage"
+            src="https://brewerydb-images.s3.amazonaws.com/beer/Yd8G8r/upload_tFSifO-medium.png"
+          />
+        </a>
+      </li>
+      <li
+        class="beerItem"
+      >
+        <a
+          href="/beer-info/iJ329Y"
+        >
+          <h2
+            class="beerName"
+          >
+            19 - Golden Belgian Style Ale
+          </h2>
+          <h3
+            class="beerSubtitle"
+          >
+            BBL Aged Strong
+          </h3>
+          <img
+            alt="19 - Golden Belgian Style Ale"
+            class="beerImage"
+            src="https://brewerydb-images.s3.amazonaws.com/beer/iJ329Y/upload_LBXagO-medium.png"
+          />
+        </a>
+      </li>
+      <li
+        class="beerItem"
+      >
+        <a
+          href="/beer-info/O78ldO"
+        >
+          <h2
+            class="beerName"
+          >
+            1904 American Red Lager
+          </h2>
+          <h3
+            class="beerSubtitle"
+          >
+            American Lager
+          </h3>
+          <img
+            alt="1904 American Red Lager"
+            class="beerImage"
+            src="https://res.cloudinary.com/teepublic/image/private/s--TsohP-Cw--/t_Resized%20Artwork/c_fit,g_north_west,h_954,w_954/co_191919,e_outline:48/co_191919,e_outline:inner_fill:48/co_ffffff,e_outline:48/co_ffffff,e_outline:inner_fill:48/co_bbbbbb,e_outline:3:1000/c_mpad,g_center,h_1260,w_1260/b_rgb:eeeeee/c_limit,f_auto,h_630,q_90,w_630/v1513360267/production/designs/2182073_1.jpg"
+          />
+        </a>
+      </li>
+      <li
+        class="beerItem"
+      >
+        <a
+          href="/beer-info/qGDeH1"
+        >
+          <h2
+            class="beerName"
+          >
+            2 x 4
+          </h2>
+          <h3
+            class="beerSubtitle"
+          >
+            Belgian Ale
+          </h3>
+          <img
+            alt="2 x 4"
+            class="beerImage"
+            src="https://brewerydb-images.s3.amazonaws.com/beer/qGDeH1/upload_yrbAAo-medium.png"
+          />
+        </a>
+      </li>
+      <li
+        class="beerItem"
+      >
+        <a
+          href="/beer-info/MgdJep"
+        >
+          <h2
+            class="beerName"
+          >
+            200th Anniversary Export Stout
+          </h2>
+          <h3
+            class="beerSubtitle"
+          >
+            Export Stout
+          </h3>
+          <img
+            alt="200th Anniversary Export Stout"
+            class="beerImage"
+            src="https://brewerydb-images.s3.amazonaws.com/beer/MgdJep/upload_Z7FPX3-medium.png"
+          />
+        </a>
+      </li>
+      <li
+        class="beerItem"
+      >
+        <a
+          href="/beer-info/ISTT06"
+        >
+          <h2
+            class="beerName"
+          >
+            2017 Beer Camp (2017)
+          </h2>
+          <h3
+            class="beerSubtitle"
+          >
+            American IPA
+          </h3>
+          <img
+            alt="2017 Beer Camp (2017)"
+            class="beerImage"
+            src="https://brewerydb-images.s3.amazonaws.com/beer/ISTT06/upload_uNRmiy-medium.png"
+          />
+        </a>
+      </li>
+      <li
+        class="beerItem"
+      >
+        <a
+          href="/beer-info/v4KRep"
+        >
+          <h2
+            class="beerName"
+          >
+            20th Anniversary Imperial Hash IPA on Brett
+          </h2>
+          <h3
+            class="beerSubtitle"
+          >
+            Imperial IPA
+          </h3>
+          <img
+            alt="20th Anniversary Imperial Hash IPA on Brett"
+            class="beerImage"
+            src="https://res.cloudinary.com/teepublic/image/private/s--TsohP-Cw--/t_Resized%20Artwork/c_fit,g_north_west,h_954,w_954/co_191919,e_outline:48/co_191919,e_outline:inner_fill:48/co_ffffff,e_outline:48/co_ffffff,e_outline:inner_fill:48/co_bbbbbb,e_outline:3:1000/c_mpad,g_center,h_1260,w_1260/b_rgb:eeeeee/c_limit,f_auto,h_630,q_90,w_630/v1513360267/production/designs/2182073_1.jpg"
+          />
+        </a>
+      </li>
+      <li
+        class="beerItem"
+      >
+        <a
+          href="/beer-info/uIgENV"
+        >
+          <h2
+            class="beerName"
+          >
+            20th Street Ale Citra
+          </h2>
+          <h3
+            class="beerSubtitle"
+          />
+          <img
+            alt="20th Street Ale Citra"
+            class="beerImage"
+            src="https://brewerydb-images.s3.amazonaws.com/beer/uIgENV/upload_Y3uGi9-medium.png"
+          />
+        </a>
+      </li>
+      <li
+        class="beerItem"
+      >
+        <a
+          href="/beer-info/WcP2Ww"
+        >
+          <h2
+            class="beerName"
+          >
+            20th Street Ale Crystal
+          </h2>
+          <h3
+            class="beerSubtitle"
+          />
+          <img
+            alt="20th Street Ale Crystal"
+            class="beerImage"
+            src="https://brewerydb-images.s3.amazonaws.com/beer/WcP2Ww/upload_fLddgs-medium.png"
+          />
+        </a>
+      </li>
+      <li
+        class="beerItem"
+      >
+        <a
+          href="/beer-info/HyxQE4"
+        >
+          <h2
+            class="beerName"
+          >
+            20th Street Ale Magnum
+          </h2>
+          <h3
+            class="beerSubtitle"
+          />
+          <img
+            alt="20th Street Ale Magnum"
+            class="beerImage"
+            src="https://brewerydb-images.s3.amazonaws.com/beer/HyxQE4/upload_ZXeOiC-medium.png"
+          />
+        </a>
+      </li>
+      <li
+        class="beerItem"
+      >
+        <a
+          href="/beer-info/e9sjBk"
+        >
+          <h2
+            class="beerName"
+          >
+            21st Anniversary
+          </h2>
+          <h3
+            class="beerSubtitle"
+          >
+            Flanders Red
+          </h3>
+          <img
+            alt="21st Anniversary"
+            class="beerImage"
+            src="https://res.cloudinary.com/teepublic/image/private/s--TsohP-Cw--/t_Resized%20Artwork/c_fit,g_north_west,h_954,w_954/co_191919,e_outline:48/co_191919,e_outline:inner_fill:48/co_ffffff,e_outline:48/co_ffffff,e_outline:inner_fill:48/co_bbbbbb,e_outline:3:1000/c_mpad,g_center,h_1260,w_1260/b_rgb:eeeeee/c_limit,f_auto,h_630,q_90,w_630/v1513360267/production/designs/2182073_1.jpg"
+          />
+        </a>
+      </li>
+      <li
+        class="beerItem"
+      >
+        <a
+          href="/beer-info/YZXVKq"
+        >
+          <h2
+            class="beerName"
+          >
+            25th Anniversary
+          </h2>
+          <h3
+            class="beerSubtitle"
+          >
+            American Imperial Porter
+          </h3>
+          <img
+            alt="25th Anniversary"
+            class="beerImage"
+            src="https://res.cloudinary.com/teepublic/image/private/s--TsohP-Cw--/t_Resized%20Artwork/c_fit,g_north_west,h_954,w_954/co_191919,e_outline:48/co_191919,e_outline:inner_fill:48/co_ffffff,e_outline:48/co_ffffff,e_outline:inner_fill:48/co_bbbbbb,e_outline:3:1000/c_mpad,g_center,h_1260,w_1260/b_rgb:eeeeee/c_limit,f_auto,h_630,q_90,w_630/v1513360267/production/designs/2182073_1.jpg"
+          />
+        </a>
+      </li>
+      <li
+        class="beerItem"
+      >
+        <a
+          href="/beer-info/7z8RTq"
+        >
+          <h2
+            class="beerName"
+          >
+            3 Weight
+          </h2>
+          <h3
+            class="beerSubtitle"
+          >
+            Session IPA
+          </h3>
+          <img
+            alt="3 Weight"
+            class="beerImage"
+            src="https://res.cloudinary.com/teepublic/image/private/s--TsohP-Cw--/t_Resized%20Artwork/c_fit,g_north_west,h_954,w_954/co_191919,e_outline:48/co_191919,e_outline:inner_fill:48/co_ffffff,e_outline:48/co_ffffff,e_outline:inner_fill:48/co_bbbbbb,e_outline:3:1000/c_mpad,g_center,h_1260,w_1260/b_rgb:eeeeee/c_limit,f_auto,h_630,q_90,w_630/v1513360267/production/designs/2182073_1.jpg"
+          />
+        </a>
+      </li>
+      <li
+        class="beerItem"
+      >
+        <a
+          href="/beer-info/f5CWb6"
+        >
+          <h2
+            class="beerName"
+          >
+            30th Anniversary - Charlie, Fred & Ken's Bock
+          </h2>
+          <h3
+            class="beerSubtitle"
+          >
+            Maibock
+          </h3>
+          <img
+            alt="30th Anniversary - Charlie, Fred & Ken's Bock"
+            class="beerImage"
+            src="https://brewerydb-images.s3.amazonaws.com/beer/f5CWb6/upload_PSAyRK-medium.png"
+          />
+        </a>
+      </li>
+      <li
+        class="beerItem"
+      >
+        <a
+          href="/beer-info/0KEzfx"
+        >
+          <h2
+            class="beerName"
+          >
+            30th Anniversary - Fritz and Ken's Ale
+          </h2>
+          <h3
+            class="beerSubtitle"
+          >
+            American Imperial Stout
+          </h3>
+          <img
+            alt="30th Anniversary - Fritz and Ken's Ale"
+            class="beerImage"
+            src="https://brewerydb-images.s3.amazonaws.com/beer/0KEzfx/upload_9zYMPq-medium.png"
+          />
+        </a>
+      </li>
+      <li
+        class="beerItem"
+      >
+        <a
+          href="/beer-info/KjumXn"
+        >
+          <h2
+            class="beerName"
+          >
+            30th Anniversary - Grand Cru
+          </h2>
+          <h3
+            class="beerSubtitle"
+          >
+            Strong Ale
+          </h3>
+          <img
+            alt="30th Anniversary - Grand Cru"
+            class="beerImage"
+            src="https://res.cloudinary.com/teepublic/image/private/s--TsohP-Cw--/t_Resized%20Artwork/c_fit,g_north_west,h_954,w_954/co_191919,e_outline:48/co_191919,e_outline:inner_fill:48/co_ffffff,e_outline:48/co_ffffff,e_outline:inner_fill:48/co_bbbbbb,e_outline:3:1000/c_mpad,g_center,h_1260,w_1260/b_rgb:eeeeee/c_limit,f_auto,h_630,q_90,w_630/v1513360267/production/designs/2182073_1.jpg"
+          />
+        </a>
+      </li>
+      <li
+        class="beerItem"
+      >
+        <a
+          href="/beer-info/8M5lCq"
+        >
+          <h2
+            class="beerName"
+          >
+            30th Anniversary - Jack & Ken's Ale
+          </h2>
+          <h3
+            class="beerSubtitle"
+          >
+            American Barleywine
+          </h3>
+          <img
+            alt="30th Anniversary - Jack & Ken's Ale"
+            class="beerImage"
+            src="https://brewerydb-images.s3.amazonaws.com/beer/8M5lCq/upload_v5FHDf-medium.png"
+          />
+        </a>
+      </li>
+      <li
+        class="beerItem"
+      >
+        <a
+          href="/beer-info/ajbd6g"
+        >
+          <h2
+            class="beerName"
+          >
+            35th Anniversary  - Brewer's Reserve
+          </h2>
+          <h3
+            class="beerSubtitle"
+          >
+            Strong Ale
+          </h3>
+          <img
+            alt="35th Anniversary  - Brewer's Reserve"
+            class="beerImage"
+            src="https://brewerydb-images.s3.amazonaws.com/beer/ajbd6g/upload_o0dl64-medium.png"
+          />
+        </a>
+      </li>
+      <li
+        class="beerItem"
+      >
+        <a
+          href="/beer-info/NoNhan"
+        >
+          <h2
+            class="beerName"
+          >
+            420 Extra Pale Ale
+          </h2>
+          <h3
+            class="beerSubtitle"
+          >
+            American Pale
+          </h3>
+          <img
+            alt="420 Extra Pale Ale"
+            class="beerImage"
+            src="https://brewerydb-images.s3.amazonaws.com/beer/NoNhan/upload_FgWgmB-medium.png"
+          />
+        </a>
+      </li>
+      <li
+        class="beerItem"
+      >
+        <a
+          href="/beer-info/pOUbfg"
+        >
+          <h2
+            class="beerName"
+          >
+            420 Fest
+          </h2>
+          <h3
+            class="beerSubtitle"
+          >
+            Imperial IPA
+          </h3>
+          <img
+            alt="420 Fest"
+            class="beerImage"
+            src="https://res.cloudinary.com/teepublic/image/private/s--TsohP-Cw--/t_Resized%20Artwork/c_fit,g_north_west,h_954,w_954/co_191919,e_outline:48/co_191919,e_outline:inner_fill:48/co_ffffff,e_outline:48/co_ffffff,e_outline:inner_fill:48/co_bbbbbb,e_outline:3:1000/c_mpad,g_center,h_1260,w_1260/b_rgb:eeeeee/c_limit,f_auto,h_630,q_90,w_630/v1513360267/production/designs/2182073_1.jpg"
+          />
+        </a>
+      </li>
+      <li
+        class="beerItem"
+      >
+        <a
+          href="/beer-info/jIKwgZ"
+        >
+          <h2
+            class="beerName"
+          >
+            420 Strain G13 IPA
+          </h2>
+          <h3
+            class="beerSubtitle"
+          >
+            American IPA
+          </h3>
+          <img
+            alt="420 Strain G13 IPA"
+            class="beerImage"
+            src="https://brewerydb-images.s3.amazonaws.com/beer/jIKwgZ/upload_fypFIo-medium.png"
+          />
+        </a>
+      </li>
+      <li
+        class="beerItem"
+      >
+        <a
+          href="/beer-info/lWygSS"
+        >
+          <h2
+            class="beerName"
+          >
+            471 Double IPA - Hull Melon
+          </h2>
+          <h3
+            class="beerSubtitle"
+          >
+            Imperial IPA
+          </h3>
+          <img
+            alt="471 Double IPA - Hull Melon"
+            class="beerImage"
+            src="https://brewerydb-images.s3.amazonaws.com/beer/lWygSS/upload_krkDHm-medium.png"
+          />
+        </a>
+      </li>
+      <li
+        class="beerItem"
+      >
+        <a
+          href="/beer-info/fa0oqf"
+        >
+          <h2
+            class="beerName"
+          >
+            471 ESB - Extra Special Bitter
+          </h2>
+          <h3
+            class="beerSubtitle"
+          >
+            ESB
+          </h3>
+          <img
+            alt="471 ESB - Extra Special Bitter"
+            class="beerImage"
+            src="https://res.cloudinary.com/teepublic/image/private/s--TsohP-Cw--/t_Resized%20Artwork/c_fit,g_north_west,h_954,w_954/co_191919,e_outline:48/co_191919,e_outline:inner_fill:48/co_ffffff,e_outline:48/co_ffffff,e_outline:inner_fill:48/co_bbbbbb,e_outline:3:1000/c_mpad,g_center,h_1260,w_1260/b_rgb:eeeeee/c_limit,f_auto,h_630,q_90,w_630/v1513360267/production/designs/2182073_1.jpg"
+          />
+        </a>
+      </li>
+      <li
+        class="beerItem"
+      >
+        <a
+          href="/beer-info/HZMvCT"
+        >
+          <h2
+            class="beerName"
+          >
+            471 IPA Barrel Series: Citra
+          </h2>
+          <h3
+            class="beerSubtitle"
+          >
+            Imperial IPA
+          </h3>
+          <img
+            alt="471 IPA Barrel Series: Citra"
+            class="beerImage"
+            src="https://res.cloudinary.com/teepublic/image/private/s--TsohP-Cw--/t_Resized%20Artwork/c_fit,g_north_west,h_954,w_954/co_191919,e_outline:48/co_191919,e_outline:inner_fill:48/co_ffffff,e_outline:48/co_ffffff,e_outline:inner_fill:48/co_bbbbbb,e_outline:3:1000/c_mpad,g_center,h_1260,w_1260/b_rgb:eeeeee/c_limit,f_auto,h_630,q_90,w_630/v1513360267/production/designs/2182073_1.jpg"
+          />
+        </a>
+      </li>
+      <li
+        class="beerItem"
+      >
+        <a
+          href="/beer-info/GysKeq"
+        >
+          <h2
+            class="beerName"
+          >
+            471 IPA Barrel Series: Eureka!
+          </h2>
+          <h3
+            class="beerSubtitle"
+          >
+            Imperial IPA
+          </h3>
+          <img
+            alt="471 IPA Barrel Series: Eureka!"
+            class="beerImage"
+            src="https://res.cloudinary.com/teepublic/image/private/s--TsohP-Cw--/t_Resized%20Artwork/c_fit,g_north_west,h_954,w_954/co_191919,e_outline:48/co_191919,e_outline:inner_fill:48/co_ffffff,e_outline:48/co_ffffff,e_outline:inner_fill:48/co_bbbbbb,e_outline:3:1000/c_mpad,g_center,h_1260,w_1260/b_rgb:eeeeee/c_limit,f_auto,h_630,q_90,w_630/v1513360267/production/designs/2182073_1.jpg"
+          />
+        </a>
+      </li>
+      <li
+        class="beerItem"
+      >
+        <a
+          href="/beer-info/tw2Iw0"
+        >
+          <h2
+            class="beerName"
+          >
+            471 IPA. Aggressive Hoppiness
+          </h2>
+          <h3
+            class="beerSubtitle"
+          >
+            Imperial IPA
+          </h3>
+          <img
+            alt="471 IPA. Aggressive Hoppiness"
+            class="beerImage"
+            src="https://res.cloudinary.com/teepublic/image/private/s--TsohP-Cw--/t_Resized%20Artwork/c_fit,g_north_west,h_954,w_954/co_191919,e_outline:48/co_191919,e_outline:inner_fill:48/co_ffffff,e_outline:48/co_ffffff,e_outline:inner_fill:48/co_bbbbbb,e_outline:3:1000/c_mpad,g_center,h_1260,w_1260/b_rgb:eeeeee/c_limit,f_auto,h_630,q_90,w_630/v1513360267/production/designs/2182073_1.jpg"
+          />
+        </a>
+      </li>
+      <li
+        class="beerItem"
+      >
+        <a
+          href="/beer-info/GYF0P4"
+        >
+          <h2
+            class="beerName"
+          >
+            471 Pilsner
+          </h2>
+          <h3
+            class="beerSubtitle"
+          >
+            American Pilsener
+          </h3>
+          <img
+            alt="471 Pilsner"
+            class="beerImage"
+            src="https://res.cloudinary.com/teepublic/image/private/s--TsohP-Cw--/t_Resized%20Artwork/c_fit,g_north_west,h_954,w_954/co_191919,e_outline:48/co_191919,e_outline:inner_fill:48/co_ffffff,e_outline:48/co_ffffff,e_outline:inner_fill:48/co_bbbbbb,e_outline:3:1000/c_mpad,g_center,h_1260,w_1260/b_rgb:eeeeee/c_limit,f_auto,h_630,q_90,w_630/v1513360267/production/designs/2182073_1.jpg"
+          />
+        </a>
+      </li>
+      <li
+        class="beerItem"
+      >
+        <a
+          href="/beer-info/j9cp5e"
+        >
+          <h2
+            class="beerName"
+          >
+            471 Small Batch IPA
+          </h2>
+          <h3
+            class="beerSubtitle"
+          >
+            American IPA
+          </h3>
+          <img
+            alt="471 Small Batch IPA"
+            class="beerImage"
+            src="https://brewerydb-images.s3.amazonaws.com/beer/j9cp5e/upload_YlBItH-medium.png"
+          />
+        </a>
+      </li>
+      <li
+        class="beerItem"
+      >
+        <a
+          href="/beer-info/5MX880"
+        >
+          <h2
+            class="beerName"
+          >
+            5 C's IPA
+          </h2>
+          <h3
+            class="beerSubtitle"
+          >
+            American IPA
+          </h3>
+          <img
+            alt="5 C's IPA"
+            class="beerImage"
+            src="https://res.cloudinary.com/teepublic/image/private/s--TsohP-Cw--/t_Resized%20Artwork/c_fit,g_north_west,h_954,w_954/co_191919,e_outline:48/co_191919,e_outline:inner_fill:48/co_ffffff,e_outline:48/co_ffffff,e_outline:inner_fill:48/co_bbbbbb,e_outline:3:1000/c_mpad,g_center,h_1260,w_1260/b_rgb:eeeeee/c_limit,f_auto,h_630,q_90,w_630/v1513360267/production/designs/2182073_1.jpg"
+          />
+        </a>
+      </li>
+      <li
+        class="beerItem"
+      >
+        <a
+          href="/beer-info/uA3MVL"
+        >
+          <h2
+            class="beerName"
+          >
+            7 Birds
+          </h2>
+          <h3
+            class="beerSubtitle"
+          >
+            American Pilsener
+          </h3>
+          <img
+            alt="organic"
+            class="organic"
+            src="https://modernbuyerbehaviour.files.wordpress.com/2016/03/organic.jpg"
+          />
+          <img
+            alt="7 Birds"
+            class="beerImage"
+            src="https://res.cloudinary.com/teepublic/image/private/s--TsohP-Cw--/t_Resized%20Artwork/c_fit,g_north_west,h_954,w_954/co_191919,e_outline:48/co_191919,e_outline:inner_fill:48/co_ffffff,e_outline:48/co_ffffff,e_outline:inner_fill:48/co_bbbbbb,e_outline:3:1000/c_mpad,g_center,h_1260,w_1260/b_rgb:eeeeee/c_limit,f_auto,h_630,q_90,w_630/v1513360267/production/designs/2182073_1.jpg"
+          />
+        </a>
+      </li>
+      <li
+        class="beerItem"
+      >
+        <a
+          href="/beer-info/Fhw2NF"
+        >
+          <h2
+            class="beerName"
+          >
+            7 Cities Pilsner
+          </h2>
+          <h3
+            class="beerSubtitle"
+          >
+            American Pilsener
+          </h3>
+          <img
+            alt="organic"
+            class="organic"
+            src="https://modernbuyerbehaviour.files.wordpress.com/2016/03/organic.jpg"
+          />
+          <img
+            alt="7 Cities Pilsner"
+            class="beerImage"
+            src="https://brewerydb-images.s3.amazonaws.com/beer/Fhw2NF/upload_4QscTY-medium.png"
+          />
+        </a>
+      </li>
+      <li
+        class="beerItem"
+      >
+        <a
+          href="/beer-info/MqTIG4"
+        >
+          <h2
+            class="beerName"
+          >
+            72 Imperial
+          </h2>
+          <h3
+            class="beerSubtitle"
+          >
+            Stout
+          </h3>
+          <img
+            alt="72 Imperial"
+            class="beerImage"
+            src="https://brewerydb-images.s3.amazonaws.com/beer/MqTIG4/upload_0mNn6W-medium.png"
+          />
+        </a>
+      </li>
+      <li
+        class="beerItem"
+      >
+        <a
+          href="/beer-info/wDgaK8"
+        >
+          <h2
+            class="beerName"
+          >
+            A Beer Named Sue
+          </h2>
+          <h3
+            class="beerSubtitle"
+          >
+            Saison
+          </h3>
+          <img
+            alt="A Beer Named Sue"
+            class="beerImage"
+            src="https://res.cloudinary.com/teepublic/image/private/s--TsohP-Cw--/t_Resized%20Artwork/c_fit,g_north_west,h_954,w_954/co_191919,e_outline:48/co_191919,e_outline:inner_fill:48/co_ffffff,e_outline:48/co_ffffff,e_outline:inner_fill:48/co_bbbbbb,e_outline:3:1000/c_mpad,g_center,h_1260,w_1260/b_rgb:eeeeee/c_limit,f_auto,h_630,q_90,w_630/v1513360267/production/designs/2182073_1.jpg"
+          />
+        </a>
+      </li>
+      <li
+        class="beerItem"
+      >
+        <a
+          href="/beer-info/Au0v9G"
+        >
+          <h2
+            class="beerName"
+          >
+            A Little Sumpin' Extra
+          </h2>
+          <h3
+            class="beerSubtitle"
+          >
+            Imperial IPA
+          </h3>
+          <img
+            alt="A Little Sumpin' Extra"
+            class="beerImage"
+            src="https://brewerydb-images.s3.amazonaws.com/beer/Au0v9G/upload_K1Zc5E-medium.png"
+          />
+        </a>
+      </li>
+      <li
+        class="beerItem"
+      >
+        <a
+          href="/beer-info/svXHfu"
+        >
+          <h2
+            class="beerName"
+          >
+            A Little Sumpin' Sumpin'
+          </h2>
+          <h3
+            class="beerSubtitle"
+          >
+            American Pale
+          </h3>
+          <img
+            alt="A Little Sumpin' Sumpin'"
+            class="beerImage"
+            src="https://brewerydb-images.s3.amazonaws.com/beer/svXHfu/upload_i4Mwls-medium.png"
+          />
+        </a>
+      </li>
+      <li
+        class="beerItem"
+      >
+        <a
+          href="/beer-info/hbF6tu"
+        >
+          <h2
+            class="beerName"
+          >
+            ABLE Best Britter
+          </h2>
+          <h3
+            class="beerSubtitle"
+          >
+            Special Bitter
+          </h3>
+          <img
+            alt="ABLE Best Britter"
+            class="beerImage"
+            src="https://brewerydb-images.s3.amazonaws.com/beer/hbF6tu/upload_KtTfDY-medium.png"
+          />
+        </a>
+      </li>
+      <li
+        class="beerItem"
+      >
+        <a
+          href="/beer-info/MTLa3r"
+        >
+          <h2
+            class="beerName"
+          >
+            Afternooner
+          </h2>
+          <h3
+            class="beerSubtitle"
+          >
+            Belgian Pale
+          </h3>
+          <img
+            alt="Afternooner"
+            class="beerImage"
+            src="https://res.cloudinary.com/teepublic/image/private/s--TsohP-Cw--/t_Resized%20Artwork/c_fit,g_north_west,h_954,w_954/co_191919,e_outline:48/co_191919,e_outline:inner_fill:48/co_ffffff,e_outline:48/co_ffffff,e_outline:inner_fill:48/co_bbbbbb,e_outline:3:1000/c_mpad,g_center,h_1260,w_1260/b_rgb:eeeeee/c_limit,f_auto,h_630,q_90,w_630/v1513360267/production/designs/2182073_1.jpg"
+          />
+        </a>
+      </li>
+      <li
+        class="beerItem"
+      >
+        <a
+          href="/beer-info/6AcqY6"
+        >
+          <h2
+            class="beerName"
+          >
+            Agave Wheat
+          </h2>
+          <h3
+            class="beerSubtitle"
+          >
+            Wheat Ale
+          </h3>
+          <img
+            alt="Agave Wheat"
+            class="beerImage"
+            src="https://brewerydb-images.s3.amazonaws.com/beer/6AcqY6/upload_NDHDT6-medium.png"
+          />
+        </a>
+      </li>
+      <li
+        class="beerItem"
+      >
+        <a
+          href="/beer-info/RK9Po6"
+        >
+          <h2
+            class="beerName"
+          >
+            Ale 20
+          </h2>
+          <h3
+            class="beerSubtitle"
+          >
+            American Pale
+          </h3>
+          <img
+            alt="Ale 20"
+            class="beerImage"
+            src="https://brewerydb-images.s3.amazonaws.com/beer/RK9Po6/upload_wGYxyS-medium.png"
+          />
+        </a>
+      </li>
+      <li
+        class="beerItem"
+      >
+        <a
+          href="/beer-info/yn4ODI"
+        >
+          <h2
+            class="beerName"
+          >
+            Ale Communication
+          </h2>
+          <h3
+            class="beerSubtitle"
+          >
+            Imperial Red
+          </h3>
+          <img
+            alt="Ale Communication"
+            class="beerImage"
+            src="https://res.cloudinary.com/teepublic/image/private/s--TsohP-Cw--/t_Resized%20Artwork/c_fit,g_north_west,h_954,w_954/co_191919,e_outline:48/co_191919,e_outline:inner_fill:48/co_ffffff,e_outline:48/co_ffffff,e_outline:inner_fill:48/co_bbbbbb,e_outline:3:1000/c_mpad,g_center,h_1260,w_1260/b_rgb:eeeeee/c_limit,f_auto,h_630,q_90,w_630/v1513360267/production/designs/2182073_1.jpg"
+          />
+        </a>
+      </li>
+      <li
+        class="beerItem"
+      >
+        <a
+          href="/beer-info/2cLm8B"
+        >
+          <h2
+            class="beerName"
+          >
+            All Colorado Apricot Wheat
+          </h2>
+          <h3
+            class="beerSubtitle"
+          >
+            Fruit Wheat Ale
+          </h3>
+          <img
+            alt="All Colorado Apricot Wheat"
+            class="beerImage"
+            src="https://brewerydb-images.s3.amazonaws.com/beer/2cLm8B/upload_r59XGe-medium.png"
+          />
+        </a>
+      </li>
+      <li
+        class="beerItem"
+      >
+        <a
+          href="/beer-info/DbeLZF"
+        >
+          <h2
+            class="beerName"
+          >
+            All Colorado Wet Hop Pale Ale
+          </h2>
+          <h3
+            class="beerSubtitle"
+          >
+            American Pale
+          </h3>
+          <img
+            alt="All Colorado Wet Hop Pale Ale"
+            class="beerImage"
+            src="https://brewerydb-images.s3.amazonaws.com/beer/DbeLZF/upload_BuoLMV-medium.png"
+          />
+        </a>
+      </li>
+      <li
+        class="beerItem"
+      >
+        <a
+          href="/beer-info/aG4Ie2"
+        >
+          <h2
+            class="beerName"
+          >
+            Alpha Dog Imperial IPA
+          </h2>
+          <h3
+            class="beerSubtitle"
+          >
+            Imperial IPA
+          </h3>
+          <img
+            alt="Alpha Dog Imperial IPA"
+            class="beerImage"
+            src="https://brewerydb-images.s3.amazonaws.com/beer/aG4Ie2/upload_yX4wkY-medium.png"
+          />
+        </a>
+      </li>
+    </ul>
+  </div>
+</div>
+`;
+
 exports[`BeerList Component should render with error 1`] = `
 <div>
   <div

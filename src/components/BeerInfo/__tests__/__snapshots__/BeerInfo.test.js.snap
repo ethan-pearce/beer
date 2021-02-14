@@ -12,6 +12,96 @@ exports[`BeerInfo Component should render when loading 1`] = `
 </div>
 `;
 
+exports[`BeerInfo Component should render with beer info 1`] = `
+<div>
+  <div
+    class="beerInfo"
+  >
+    <div>
+      Sorry something went wrong
+    </div>
+    <h2
+      class="beerName"
+    >
+      11.5° PLATO
+    </h2>
+    <h3
+      class="beerSubtitle"
+    >
+      Session IPA
+    </h3>
+    <h4
+      class="breweriesTitle"
+    >
+      Stocked at these breweries:
+    </h4>
+    <ul
+      class="breweries"
+    >
+      <li
+        class="brewery"
+      >
+        <a
+          href="http://www.sierranevada.com/"
+        >
+          <h5>
+            Sierra Nevada Brewing Company
+          </h5>
+          <p>
+            http://www.sierranevada.com/
+          </p>
+          <img
+            alt="Sierra Nevada Brewing Company"
+            src="https://brewerydb-images.s3.amazonaws.com/brewery/nHLlnK/upload_IClwuZ-medium.png"
+          />
+        </a>
+        <p
+          class="LocationTitle"
+        >
+          Locations:
+        </p>
+        <ul
+          class="locations"
+        >
+          <li
+            class="location"
+          >
+            <p>
+              Main Brewery
+            </p>
+            <p>
+              Type: Micro Brewery
+            </p>
+            <p>
+              California
+            </p>
+            <p>
+              95928
+            </p>
+          </li>
+          <li
+            class="location"
+          >
+            <p>
+              Asheville
+            </p>
+            <p>
+              Type: Micro Brewery
+            </p>
+            <p>
+              North Carolina
+            </p>
+            <p>
+              28732
+            </p>
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </div>
+</div>
+`;
+
 exports[`BeerInfo Component should render with error 1`] = `
 <div>
   <div
