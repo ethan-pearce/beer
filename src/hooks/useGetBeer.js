@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react'
-import { mapBeer } from '../Utils/mapBeer'
+import { mapBeer } from '../utils/mapBeer'
 
 export const useGetBeer = (beerId) => {
     const [beer, setBeer] = useState([])
