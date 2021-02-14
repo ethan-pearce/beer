@@ -1,7 +1,9 @@
+import './Footer.css'
+
 const Footer = () => {
 return (
-        <footer>
-            This is the footer.
+        <footer className={'footer'}>
+            <p>© Beer</p>
         </footer>
     );
 }

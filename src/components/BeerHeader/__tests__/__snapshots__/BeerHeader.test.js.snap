@@ -1,0 +1,36 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`BeerHeader Component should render 1`] = `
+<div>
+  <h2
+    class="beerName"
+  >
+    test header
+  </h2>
+  <h3
+    class="beerSubtitle"
+  >
+    test sub-header
+  </h3>
+</div>
+`;
+
+exports[`BeerHeader Component should render with Organic Icon 1`] = `
+<div>
+  <h2
+    class="beerName"
+  >
+    test header
+  </h2>
+  <h3
+    class="beerSubtitle"
+  >
+    test sub-header
+  </h3>
+  <img
+    alt="organic"
+    class="organic"
+    src="https://modernbuyerbehaviour.files.wordpress.com/2016/03/organic.jpg"
+  />
+</div>
+`;

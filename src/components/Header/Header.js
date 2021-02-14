@@ -1,7 +1,9 @@
+import './Header.css';
+
 const Header = () => {
   return (
-    <header>
-      This is the header.
+    <header className={'header'}>
+      <h1>Speciality Beers</h1>
     </header>
   );
 }

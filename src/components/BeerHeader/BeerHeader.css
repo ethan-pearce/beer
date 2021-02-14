@@ -1,0 +1,14 @@
+.beerName{
+    font-size: 24px;
+    margin: 0;
+}
+
+.beerSubtitle{
+    font-size: 16px;
+    margin: 0 0 16px;
+}
+
+.organic {
+    height: 40px;
+    width: 40px;
+}
