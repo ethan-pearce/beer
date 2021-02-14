@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`BeerInfo Component should render when loading 1`] = `
+<div>
+  <div
+    class="beerInfo"
+  >
+    <div>
+      Loading .....
+    </div>
+  </div>
+</div>
+`;
+
+exports[`BeerInfo Component should render with error 1`] = `
+<div>
+  <div
+    class="beerInfo"
+  >
+    <div>
+      Sorry something went wrong
+    </div>
+  </div>
+</div>
+`;

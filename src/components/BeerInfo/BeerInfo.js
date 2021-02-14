@@ -5,7 +5,7 @@ import BeerHeader from '../BeerHeader/BeerHeader'
 
 const BeerInfo = () => {
   let { beerId } = useParams();
-  const { beer, loading, error,} = useGetBeer(beerId)
+  const { beer, loading, error } = useGetBeer(beerId)
   const { name, style, breweries, organic } = beer;
 
   return (
