@@ -1,0 +1,49 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`when the request to beer info is successful should get beer info 1`] = `
+Object {
+  "breweries": Array [
+    Object {
+      "href": "http://www.oskarblues.com/",
+      "id": "q6vJUK",
+      "image": "https://brewerydb-images.s3.amazonaws.com/brewery/q6vJUK/upload_wNi52r-medium.png",
+      "locations": Array [
+        Object {
+          "id": "jnSdDd",
+          "name": "Main Brewery",
+          "postalCode": "80501",
+          "region": "Colorado",
+          "type": "Micro Brewery",
+        },
+        Object {
+          "id": "I1q8kK",
+          "name": "Brevard",
+          "postalCode": "28712",
+          "region": "North Carolina",
+          "type": "Micro Brewery",
+        },
+        Object {
+          "id": "TkDbDx",
+          "name": "Oskar Blues",
+          "postalCode": "78758",
+          "region": "Texas",
+          "type": "Micro Brewery",
+        },
+        Object {
+          "id": "G2jxYM",
+          "name": "North Carolina",
+          "postalCode": "28712",
+          "region": "North Carolina",
+          "type": "Micro Brewery",
+        },
+      ],
+      "name": "Oskar Blues Brewery",
+    },
+  ],
+  "id": "2cLm8B",
+  "image": "https://brewerydb-images.s3.amazonaws.com/beer/2cLm8B/upload_r59XGe-medium.png",
+  "name": "All Colorado Apricot Wheat",
+  "organic": false,
+  "style": "Fruit Wheat Ale",
+}
+`;

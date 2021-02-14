@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react'
 import { mapBeer } from '../utils/mapBeer'
 
 export const useGetBeer = (beerId) => {
-    const [beer, setBeer] = useState([])
+    const [beer, setBeer] = useState({})
     const [loading, setLoading] = useState(true)
     const [error, setError] = useState(false)
 
