@@ -4,14 +4,13 @@ Simple React app, that uses brewerydb's : open API's https://www.brewerydb.com/d
 
 ## Run the App
 
-yarn start
-
+`yarn start`
 
 ## Test the App
 ### Unit Tests
 
-yarn test
+`yarn test`
 
 ### Cypress Tests
 
-yarn run cypress open
+`yarn run cypress open`
