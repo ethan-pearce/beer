@@ -1,8 +1,9 @@
 .header {
     background-color: black;
     color: white;
-    padding: 16px;
     position: sticky;
     top: 0;
     z-index: 1;
+    padding: 16px;
+    text-align: right;
 }

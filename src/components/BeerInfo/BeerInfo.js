@@ -1,24 +1,30 @@
+import React, { useContext } from 'react';
 import './BeerInfo.css';
 import { useGetBeer } from '../../hooks/useGetBeer'
 import { useParams } from "react-router-dom";
 import BeerHeader from '../BeerHeader/BeerHeader'
+import BeerContext from '../../app/BeerContext'
+import Loading from '../Loading/Loading'
 
 const BeerInfo = () => {
   let { beerId } = useParams();
   const { beer, loading, error } = useGetBeer(beerId)
-  const { name, style, breweries, organic } = beer;
+  const { beer: beerFromContext } = useContext(BeerContext);
+
+  const name = beerFromContext.name ? beerFromContext.name : beer.name;
+  const style = beerFromContext.style ? beerFromContext.style : beer.style;
+  const organic = beerFromContext.organic ? beerFromContext.organic : beer.organic;
 
   return (
     <div className={'beerInfo'}>
-        {loading && <div>Loading .....</div>}
+        {beerFromContext.name || beer.name ?
+          <BeerHeader title={name} subTitle={style} organic={organic} titleClassName={'beerInfoTitle'}/>
+        : null}
+        {loading && <Loading />}
         {error && <div>Sorry something went wrong</div>}
-        {name &&
-          <>
-            <BeerHeader title={name} subTitle={style} organic={organic}/>
-            {breweries.length > 0 &&
-              <Breweries breweries={breweries}/>
-            }
-          </>
+        {beer?.breweries &&
+            beer.breweries.length > 0 &&
+              <Breweries breweries={beer.breweries}/>
         }
     </div>
   );
@@ -36,9 +42,9 @@ const Breweries = ({breweries}) => {
             return (
               <li key={id} className={'brewery'}>
                 <a href={href}>
-                  <h5>{name}</h5>
-                  <p>{href}</p>
-                  <img alt={name} src={image}/>
+                  <h5 className={'breweryName'}>{name}</h5>
+                  <p className={'breweryLink'}>{href}</p>
+                  <img className={'breweryImage'} alt={name} src={image}/>
                 </a>
                 <Locations locations={locations}/>
               </li>

@@ -25,4 +25,6 @@
 
 .beerImage{
     height: 140px;
+    float: left;
+    padding-left: 4px;
 }
