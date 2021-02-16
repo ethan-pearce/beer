@@ -50,6 +50,7 @@ describe('BeerInfo Component', () => {
         useParams.mockImplementation(() => { return { beerId: 'zTTWa2'}})
         useGetBeer.mockImplementation(() => { return { beer: {}, loading: true, error: false }})
         const { container } = render(<BeerProvider value={{beer: {}, toggleBeer: jest.fn()}}><BeerInfo /></BeerProvider>)
+        expect(container.getElementsByClassName('loadingText').length).toBe(1)
         expect(container).toMatchSnapshot()
     })
 

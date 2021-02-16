@@ -15,12 +15,14 @@ describe('BeerList Component', () => {
     it('should render loading', () => {
         useGetBeers.mockImplementation(() => { return { beers: [], loading: true, error: false }})
         const { container } = render(<BeerList />)
+        expect(container.getElementsByClassName('loadingText').length).toBe(1)
         expect(container).toMatchSnapshot()
     })
 
     it('should render with data', () => {
         useGetBeers.mockImplementation(() => { return { beers: mockList(), loading: false, error: true }})
         const { container } = render(<Router><BeerList /></Router>)
+        expect(container.getElementsByClassName('beerName').length).toBe(50)
         expect(container).toMatchSnapshot()
     })
 
