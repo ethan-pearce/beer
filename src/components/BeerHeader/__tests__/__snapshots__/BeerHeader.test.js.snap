@@ -3,7 +3,7 @@
 exports[`BeerHeader Component should render 1`] = `
 <div>
   <h2
-    class="beerName"
+    class="beerName "
   >
     test header
   </h2>
@@ -18,7 +18,7 @@ exports[`BeerHeader Component should render 1`] = `
 exports[`BeerHeader Component should render with Organic Icon 1`] = `
 <div>
   <h2
-    class="beerName"
+    class="beerName "
   >
     test header
   </h2>

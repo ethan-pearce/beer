@@ -5,9 +5,15 @@ exports[`BeerInfo Component should render when loading 1`] = `
   <div
     class="beerInfo"
   >
-    <div>
-      Loading .....
+    <div
+      class="loadingText"
+    >
+      Loading ....
     </div>
+    <img
+      class="loadingImage"
+      src="https://media4.giphy.com/media/dt91SdhwBusuZalJkG/giphy.gif?cid=ecf05e4769y62aeey7sw7k7bcuiu66q3qyjobrh2exgafgl6&rid=giphy.gif"
+    />
   </div>
 </div>
 `;
@@ -17,11 +23,8 @@ exports[`BeerInfo Component should render with beer info 1`] = `
   <div
     class="beerInfo"
   >
-    <div>
-      Sorry something went wrong
-    </div>
     <h2
-      class="beerName"
+      class="beerName beerInfoTitle"
     >
       11.5° PLATO
     </h2>
@@ -30,6 +33,9 @@ exports[`BeerInfo Component should render with beer info 1`] = `
     >
       Session IPA
     </h3>
+    <div>
+      Sorry something went wrong
+    </div>
     <h4
       class="breweriesTitle"
     >
@@ -44,14 +50,19 @@ exports[`BeerInfo Component should render with beer info 1`] = `
         <a
           href="http://www.sierranevada.com/"
         >
-          <h5>
+          <h5
+            class="breweryName"
+          >
             Sierra Nevada Brewing Company
           </h5>
-          <p>
+          <p
+            class="breweryLink"
+          >
             http://www.sierranevada.com/
           </p>
           <img
             alt="Sierra Nevada Brewing Company"
+            class="breweryImage"
             src="https://brewerydb-images.s3.amazonaws.com/brewery/nHLlnK/upload_IClwuZ-medium.png"
           />
         </a>

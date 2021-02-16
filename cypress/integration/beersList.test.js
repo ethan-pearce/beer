@@ -4,7 +4,7 @@ describe('beers list page successful', () => {
         cy.fixture('beers.json').as('beersJSON');
         cy.route('GET', 'https://sandbox-api.brewerydb.com/v2/beers?key=816ecbe13a87ec829cd5aef047ca5c0a', '@beersJSON').as('beers');
         cy.fixture('beer.json').as('beerInfoJSON');
-        cy.route('GET', 'https://sandbox-api.brewerydb.com/v2/beer/zTTWa2?withBreweries=Y&withSocialAccounts=Y&withIngredients=Y&key=816ecbe13a87ec829cd5aef047ca5c0a', '@beerInfoJSON').as('beerInfo');
+        cy.route('GET', 'https://sandbox-api.brewerydb.com/v2/beer/2cLm8B?withBreweries=Y&withSocialAccounts=Y&withIngredients=Y&key=816ecbe13a87ec829cd5aef047ca5c0a', '@beerInfoJSON').as('beerInfo');
     })
 
     it('should visit page and beers should load in', () => {
@@ -50,10 +50,10 @@ describe('beers list page successful', () => {
         .should('have.text', "Fruit Wheat Ale")
         .get(':nth-child(48) > a > .beerImage')
         .should('exist')
-        .get(':nth-child(2) > a')
+        .get(':nth-child(48) > a')
         .click()
         .url()
-        .should('eq', 'http://localhost:3000/beer-info/zTTWa2')
+        .should('eq', 'http://localhost:3000/beer-info/2cLm8B')
         .wait('@beerInfo')
         .get('.beerName')
         .should('exist')
