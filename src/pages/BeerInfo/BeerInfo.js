@@ -1,14 +1,14 @@
 import React, { useContext } from 'react';
 import './BeerInfo.css';
 import { useGetBeer } from '../../hooks/useGetBeer'
-import { useParams } from "react-router-dom";
-import BeerHeader from '../BeerHeader/BeerHeader'
+import { useParams, Link } from "react-router-dom";
+import BeerHeader from '../../components/BeerHeader/BeerHeader'
 import BeerContext from '../../app/BeerContext'
-import Loading from '../Loading/Loading'
+import Loading from '../../components/Loading/Loading'
 
 const BeerInfo = () => {
-  let { beerId } = useParams();
-  const { beer, loading, error } = useGetBeer(beerId)
+  let params = useParams();
+  const { beer, loading, error } = useGetBeer(params?.beerId)
   const { beer: beerFromContext } = useContext(BeerContext);
 
   const name = beerFromContext.name ? beerFromContext.name : beer.name;
@@ -41,11 +41,11 @@ const Breweries = ({breweries}) => {
             const { href, name, image, locations, id } = brewery;
             return (
               <li key={id} className={'brewery'}>
-                <a href={href}>
+                <Link to={`/brewery/${id}`}>
                   <h5 className={'breweryName'}>{name}</h5>
                   <p className={'breweryLink'}>{href}</p>
                   <img className={'breweryImage'} alt={name} src={image}/>
-                </a>
+                </Link>
                 <Locations locations={locations}/>
               </li>
             )

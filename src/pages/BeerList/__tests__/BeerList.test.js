@@ -3,9 +3,7 @@ import { render } from '@testing-library/react';
 import BeerList from '../BeerList'
 import { useGetBeers } from '../../../hooks/useGetBeers'
 import { mockList } from '../__mocks__/mockList'
-import {
-    BrowserRouter as Router,
-  } from "react-router-dom";
+import { BrowserRouter as Router } from "react-router-dom";
 
 jest.mock('../../../hooks/useGetBeers', () => ({
     useGetBeers: jest.fn(),
@@ -14,7 +12,7 @@ jest.mock('../../../hooks/useGetBeers', () => ({
 describe('BeerList Component', () => {
     it('should render loading', () => {
         useGetBeers.mockImplementation(() => { return { beers: [], loading: true, error: false }})
-        const { container } = render(<BeerList />)
+        const { container } = render(<Router><BeerList /></Router>)
         expect(container.getElementsByClassName('loadingText').length).toBe(1)
         expect(container).toMatchSnapshot()
     })
@@ -28,7 +26,7 @@ describe('BeerList Component', () => {
 
     it('should render with error', () => {
         useGetBeers.mockImplementation(() => { return { beers: [], loading: false, error: true }})
-        const { container } = render(<BeerList />)
+        const { container } = render(<Router><BeerList /></Router>)
         expect(container).toMatchSnapshot()
     })
 })

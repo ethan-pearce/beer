@@ -1,14 +1,15 @@
 import React, { useContext } from 'react';
 import './BeerList.css';
 import { useGetBeers } from '../../hooks/useGetBeers'
-import { Link } from "react-router-dom";
-import BeerHeader from '../BeerHeader/BeerHeader'
+import { Link, useParams } from "react-router-dom";
+import BeerHeader from '../../components/BeerHeader/BeerHeader'
 import BeerContext from '../../app/BeerContext'
-import Loading from '../Loading/Loading'
+import Loading from '../../components/Loading/Loading'
 
 const BeerList = () => {
-    const { beers, loading, error } = useGetBeers();
-    const { beer, toggleBeer } = useContext(BeerContext);
+    let params = useParams();
+    const { beers, loading, error } = useGetBeers(params?.breweryId);
+    const { toggleBeer } = useContext(BeerContext);
 
     return (
         <div className={'container'}>

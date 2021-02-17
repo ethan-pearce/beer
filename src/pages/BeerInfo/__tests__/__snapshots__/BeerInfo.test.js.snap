@@ -48,7 +48,7 @@ exports[`BeerInfo Component should render with beer info 1`] = `
         class="brewery"
       >
         <a
-          href="http://www.sierranevada.com/"
+          href="/brewery/nHLlnK"
         >
           <h5
             class="breweryName"

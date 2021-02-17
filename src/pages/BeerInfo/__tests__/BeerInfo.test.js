@@ -1,16 +1,17 @@
-import React, { useState } from 'react'
+import React from 'react'
 import { render } from '@testing-library/react';
 import BeerInfo from '../BeerInfo'
-import { useParams } from "react-router-dom";
+import { BrowserRouter as Router, useParams } from "react-router-dom";
 import { useGetBeer } from '../../../hooks/useGetBeer'
 import { BeerProvider } from '../../../app/BeerContext'
 
-jest.mock('react-router-dom', () => ({
-    useParams: jest.fn(),
-}))
-
 jest.mock('../../../hooks/useGetBeer', () => ({
     useGetBeer: jest.fn(),
+}))
+
+jest.mock('react-router-dom', () => ({
+  ...jest.requireActual('react-router-dom'),
+  useParams: jest.fn()
 }))
 
 const mockBeerInfo = {
@@ -49,7 +50,7 @@ describe('BeerInfo Component', () => {
     it('should render when loading', () => {
         useParams.mockImplementation(() => { return { beerId: 'zTTWa2'}})
         useGetBeer.mockImplementation(() => { return { beer: {}, loading: true, error: false }})
-        const { container } = render(<BeerProvider value={{beer: {}, toggleBeer: jest.fn()}}><BeerInfo /></BeerProvider>)
+        const { container } = render(<Router><BeerProvider value={{beer: {}, toggleBeer: jest.fn()}}><BeerInfo /></BeerProvider></Router>)
         expect(container.getElementsByClassName('loadingText').length).toBe(1)
         expect(container).toMatchSnapshot()
     })
@@ -57,14 +58,14 @@ describe('BeerInfo Component', () => {
     it('should render with error', () => {
         useParams.mockImplementation(() => { return { beerId: 'zTTWa2'}})
         useGetBeer.mockImplementation(() => { return { beer: {}, loading: false, error: true }})
-        const { container } = render(<BeerProvider value={{beer: {}, toggleBeer: jest.fn()}}><BeerInfo /></BeerProvider>)
+        const { container } = render(<Router><BeerProvider value={{beer: {}, toggleBeer: jest.fn()}}><BeerInfo /></BeerProvider></Router>)
         expect(container).toMatchSnapshot()
     })
 
     it('should render with beer info', () => {
         useParams.mockImplementation(() => { return { beerId: 'zTTWa2'}})
         useGetBeer.mockImplementation(() => { return { beer: mockBeerInfo, loading: false, error: true }})
-        const { container } = render(<BeerProvider value={{beer: {}, toggleBeer: jest.fn()}}><BeerInfo /></BeerProvider>)
+        const { container } = render(<Router><BeerProvider value={{beer: {}, toggleBeer: jest.fn()}}><BeerInfo /></BeerProvider></Router>)
         expect(container).toMatchSnapshot()
     })
 })

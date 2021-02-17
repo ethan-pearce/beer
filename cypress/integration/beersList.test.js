@@ -2,7 +2,7 @@ describe('beers list page successful', () => {
     beforeEach(() => {
         cy.server()
         cy.fixture('beers.json').as('beersJSON');
-        cy.route('GET', 'https://sandbox-api.brewerydb.com/v2/beers?key=816ecbe13a87ec829cd5aef047ca5c0a', '@beersJSON').as('beers');
+        cy.route('GET', 'https://sandbox-api.brewerydb.com/v2/beers?key=816ecbe13a87ec829cd5aef047ca5c0a&p=1', '@beersJSON').as('beers');
         cy.fixture('beer.json').as('beerInfoJSON');
         cy.route('GET', 'https://sandbox-api.brewerydb.com/v2/beer/2cLm8B?withBreweries=Y&withSocialAccounts=Y&withIngredients=Y&key=816ecbe13a87ec829cd5aef047ca5c0a', '@beerInfoJSON').as('beerInfo');
     })

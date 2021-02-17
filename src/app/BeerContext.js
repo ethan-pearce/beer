@@ -1,6 +1,6 @@
 import { createContext } from 'react'
 
-const BeerContext = createContext({beer: {}, setBeer: undefined})
+const BeerContext = createContext({beer: {}, setBeer: () => {}})
 
 export const BeerProvider = BeerContext.Provider
 export const BeerConsumer = BeerContext.Consumer

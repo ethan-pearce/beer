@@ -1,15 +1,18 @@
 import { useState, useEffect } from 'react'
 import { mapBeer } from '../utils/mapBeer'
 
-export const useGetBeers = () => {
+export const useGetBeers = (breweryId) => {
     const [beers, setBeers] = useState([])
     const [loading, setLoading] = useState(true)
     const [error, setError] = useState(false)
 
+    const baseUrl = `https://sandbox-api.brewerydb.com/v2/`;
+    const path = breweryId ? `brewery/${breweryId}/beers` : 'beers'
+
     useEffect(() => {
         setLoading(true)
 
-        fetch('https://sandbox-api.brewerydb.com/v2/beers?key=816ecbe13a87ec829cd5aef047ca5c0a')
+        fetch(`${baseUrl}${path}?key=816ecbe13a87ec829cd5aef047ca5c0a&p=1`)
             .then((res) => {
                 if (!res.ok) {
                     setError(true)
@@ -24,7 +27,7 @@ export const useGetBeers = () => {
                 setError(true)
                 setLoading(false)
             })
-    }, [])
+    }, [breweryId])
 
     return {
         beers,
