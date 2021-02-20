@@ -36,6 +36,7 @@ export const useGetBeer = (beerId) => {
 const mapBeerWithExtras = (beer) => {
     return {
         ...mapBeer(beer),
+        description: beer.style.description,
         breweries: mapBreweries(beer.breweries)
     }
 }

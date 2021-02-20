@@ -15,6 +15,11 @@
     }
 }
 
+.beerDescription{
+    text-align: left;
+    margin: 16px 16px 16px 8px;
+}
+
 .location{
     margin: 16px;
     border: 1px solid;

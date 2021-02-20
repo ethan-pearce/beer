@@ -9,21 +9,23 @@ import Loading from '../../components/Loading/Loading'
 const BeerInfo = () => {
   let params = useParams();
   const { beer, loading, error } = useGetBeer(params?.beerId)
+  const { breweries, description } = beer;
   const { beer: beerFromContext } = useContext(BeerContext);
 
-  const name = beerFromContext.name ? beerFromContext.name : beer.name;
-  const style = beerFromContext.style ? beerFromContext.style : beer.style;
-  const organic = beerFromContext.organic ? beerFromContext.organic : beer.organic;
+  const name = beerFromContext.name || beer.name;
+  const style = beerFromContext.style || beer.style;
+  const organic = beerFromContext.organic || beer.organic;
 
   return (
     <div className={'beerInfo'}>
-        {beerFromContext.name || beer.name ?
+        {name ?
           <BeerHeader title={name} subTitle={style} organic={organic} titleClassName={'beerInfoTitle'}/>
         : null}
         {loading && <Loading />}
         {error && <div>Sorry something went wrong</div>}
-        {beer?.breweries &&
-            beer.breweries.length > 0 &&
+        {description && <p className={'beerDescription'}>{description}</p>}
+        {breweries &&
+            breweries.length > 0 &&
               <Breweries breweries={beer.breweries}/>
         }
     </div>
