@@ -362,9 +362,6 @@ exports[`BeerList Component should render with data 1`] = `
           >
             20th Street Ale Citra
           </h2>
-          <h3
-            class="beerSubtitle"
-          />
           <img
             alt="20th Street Ale Citra"
             class="beerImage"
@@ -383,9 +380,6 @@ exports[`BeerList Component should render with data 1`] = `
           >
             20th Street Ale Crystal
           </h2>
-          <h3
-            class="beerSubtitle"
-          />
           <img
             alt="20th Street Ale Crystal"
             class="beerImage"
@@ -404,9 +398,6 @@ exports[`BeerList Component should render with data 1`] = `
           >
             20th Street Ale Magnum
           </h2>
-          <h3
-            class="beerSubtitle"
-          />
           <img
             alt="20th Street Ale Magnum"
             class="beerImage"

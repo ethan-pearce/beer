@@ -50,7 +50,7 @@ describe('BeerInfo Component', () => {
     it('should render when loading', () => {
         useParams.mockImplementation(() => { return { beerId: 'zTTWa2'}})
         useGetBeer.mockImplementation(() => { return { beer: {}, loading: true, error: false }})
-        const { container } = render(<Router><BeerProvider value={{beer: {}, toggleBeer: jest.fn()}}><BeerInfo /></BeerProvider></Router>)
+        const { container } = render(<Router><BeerProvider value={{beer: {}, setBeer: jest.fn()}}><BeerInfo /></BeerProvider></Router>)
         expect(container.getElementsByClassName('loadingText').length).toBe(1)
         expect(container).toMatchSnapshot()
     })
@@ -58,14 +58,14 @@ describe('BeerInfo Component', () => {
     it('should render with error', () => {
         useParams.mockImplementation(() => { return { beerId: 'zTTWa2'}})
         useGetBeer.mockImplementation(() => { return { beer: {}, loading: false, error: true }})
-        const { container } = render(<Router><BeerProvider value={{beer: {}, toggleBeer: jest.fn()}}><BeerInfo /></BeerProvider></Router>)
+        const { container } = render(<Router><BeerProvider value={{beer: {}, setBeer: jest.fn()}}><BeerInfo /></BeerProvider></Router>)
         expect(container).toMatchSnapshot()
     })
 
     it('should render with beer info', () => {
         useParams.mockImplementation(() => { return { beerId: 'zTTWa2'}})
         useGetBeer.mockImplementation(() => { return { beer: mockBeerInfo, loading: false, error: true }})
-        const { container } = render(<Router><BeerProvider value={{beer: {}, toggleBeer: jest.fn()}}><BeerInfo /></BeerProvider></Router>)
+        const { container } = render(<Router><BeerProvider value={{beer: {}, setBeer: jest.fn()}}><BeerInfo /></BeerProvider></Router>)
         expect(container).toMatchSnapshot()
     })
 })

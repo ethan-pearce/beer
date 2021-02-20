@@ -11,9 +11,12 @@ Object {
         <header
           class="header"
         >
-          <h1>
+          <a
+            class="headerTitle"
+            href="/"
+          >
             Speciality Beers
-          </h1>
+          </a>
         </header>
         <div
           class="container"
@@ -45,9 +48,12 @@ Object {
       <header
         class="header"
       >
-        <h1>
+        <a
+          class="headerTitle"
+          href="/"
+        >
           Speciality Beers
-        </h1>
+        </a>
       </header>
       <div
         class="container"

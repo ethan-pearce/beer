@@ -34,24 +34,19 @@ export default BeerInfo;
 
 const Breweries = ({breweries}) => {
   return (
-    <>
-      <h4 className={'breweriesTitle'}>Stocked at these breweries:</h4>
-        <ul className={'breweries'}>
-          {breweries.map(brewery => {
-            const { href, name, image, locations, id } = brewery;
-            return (
-              <li key={id} className={'brewery'}>
-                <Link to={`/brewery/${id}`}>
-                  <h5 className={'breweryName'}>{name}</h5>
-                  <p className={'breweryLink'}>{href}</p>
-                  <img className={'breweryImage'} alt={name} src={image}/>
-                </Link>
-                <Locations locations={locations}/>
-              </li>
-            )
-          })}
-      </ul>
-    </>
+      <ul className={'breweries'}>
+        {breweries.map(brewery => {
+          const { href, name, image, locations, id } = brewery;
+          return (
+            <li key={id} className={'brewery'}>
+              <Link to={`/brewery/${id}`} className={'breweryName'}>{name}</Link>
+              <a className={'breweryLink'} href={href}>{href}</a>
+              <img className={'breweryImage'} alt={name} src={image}/>
+              <Locations locations={locations}/>
+            </li>
+          )
+        })}
+    </ul>
   )
 }
 

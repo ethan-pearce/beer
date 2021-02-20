@@ -1,9 +1,14 @@
 .header {
     background-color: black;
-    color: white;
     position: sticky;
     top: 0;
     z-index: 1;
-    padding: 16px;
     text-align: right;
+}
+
+.headerTitle {
+    font-size: 64px;
+    line-height: 55px;
+    color: white;
+    font-weight: 100;
 }

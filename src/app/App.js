@@ -13,11 +13,10 @@ import { BeerProvider } from './BeerContext'
 
 function App() {
   const [beer, setBeer] = useState({});
-  const toggleBeer = (beerToShow) => setBeer(beerToShow);
 
   return (
     <Router>
-      <BeerProvider value={{beer, toggleBeer}}>
+      <BeerProvider value={{beer, setBeer}}>
         <div className="App">
           <Header/>
             <Switch>

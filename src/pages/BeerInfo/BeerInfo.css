@@ -4,30 +4,15 @@
 }
 
 .beerInfoTitle {
-    margin: -36px 0 0 0;
+    margin: -32px 0 0 0;
     font-size: 116px;
 }
 
 @media only screen and (max-width: 1023px) {
     .beerInfoTitle {
-        margin: -18px 0 0 0;
+        margin: -16px 0 0 0;
         font-size: 60px;
     }
-}
-
-@media only screen and (max-width: 600px) {
-    .beerInfoTitle {
-        margin: -16px 0 0 0;
-    }
-}
-
-.breweriesTitle {
-    text-align: left;
-    border: 1px solid;
-    border-left: 0;
-    padding: 8px;
-    margin-bottom: 16px;
-    width: fit-content;
 }
 
 .location{
@@ -60,12 +45,24 @@
 .breweryName {
     text-align: left;
     font-size: 60px;
+    font-weight: 300;
+    background-color: #353535;
+    width: fit-content;
+    color: white;
+    padding: 0 8px 8px;
+    display: block;
+}
+
+.breweryName:hover {
+    opacity: 0.8;
 }
 
 .breweryLink {
     text-align: left;
-    margin: 0;
+    margin: 8px 0 8px 8px;
     font-size: 32px;
+    display: block;
+    width: fit-content;
 }
 
 .breweryImage {

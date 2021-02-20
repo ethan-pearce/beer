@@ -36,11 +36,6 @@ exports[`BeerInfo Component should render with beer info 1`] = `
     <div>
       Sorry something went wrong
     </div>
-    <h4
-      class="breweriesTitle"
-    >
-      Stocked at these breweries:
-    </h4>
     <ul
       class="breweries"
     >
@@ -48,24 +43,22 @@ exports[`BeerInfo Component should render with beer info 1`] = `
         class="brewery"
       >
         <a
+          class="breweryName"
           href="/brewery/nHLlnK"
         >
-          <h5
-            class="breweryName"
-          >
-            Sierra Nevada Brewing Company
-          </h5>
-          <p
-            class="breweryLink"
-          >
-            http://www.sierranevada.com/
-          </p>
-          <img
-            alt="Sierra Nevada Brewing Company"
-            class="breweryImage"
-            src="https://brewerydb-images.s3.amazonaws.com/brewery/nHLlnK/upload_IClwuZ-medium.png"
-          />
+          Sierra Nevada Brewing Company
         </a>
+        <a
+          class="breweryLink"
+          href="http://www.sierranevada.com/"
+        >
+          http://www.sierranevada.com/
+        </a>
+        <img
+          alt="Sierra Nevada Brewing Company"
+          class="breweryImage"
+          src="https://brewerydb-images.s3.amazonaws.com/brewery/nHLlnK/upload_IClwuZ-medium.png"
+        />
         <p
           class="LocationTitle"
         >

@@ -5,9 +5,12 @@ exports[`Header Component should render 1`] = `
   <header
     class="header"
   >
-    <h1>
+    <a
+      class="headerTitle"
+      href="/"
+    >
       Speciality Beers
-    </h1>
+    </a>
   </header>
 </div>
 `;

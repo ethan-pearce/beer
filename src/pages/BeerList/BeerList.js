@@ -9,19 +9,19 @@ import Loading from '../../components/Loading/Loading'
 const BeerList = () => {
     let params = useParams();
     const { beers, loading, error } = useGetBeers(params?.breweryId);
-    const { toggleBeer } = useContext(BeerContext);
+    const { setBeer } = useContext(BeerContext);
 
     return (
         <div className={'container'}>
         {loading && <Loading />}
         {error && <div>Sorry something went wrong</div>}
-        {beers.length >= 1 &&
+        {!loading && beers.length >= 1 &&
             <ul className={'beerList'}>
                 {beers.map(beer => {
                     const { name, image, id, style, organic } = beer;
                     return (
                         <li key={id} className={'beerItem'}>
-                            <Link to={`/beer-info/${id}`} onClick={() => toggleBeer({ name, style, organic })}>
+                            <Link to={`/beer-info/${id}`} onClick={() => setBeer({ name, style, organic })}>
                                 <BeerHeader title={name} subTitle={style} organic={organic} />
                                 <img src={image} alt={name} className={'beerImage'}/>
                             </Link>
