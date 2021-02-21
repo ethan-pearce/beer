@@ -8,6 +8,7 @@ exports[`Loading Component should render 1`] = `
     Loading ....
   </div>
   <img
+    alt="loading"
     class="loadingImage"
     src="https://media4.giphy.com/media/dt91SdhwBusuZalJkG/giphy.gif?cid=ecf05e4769y62aeey7sw7k7bcuiu66q3qyjobrh2exgafgl6&rid=giphy.gif"
   />

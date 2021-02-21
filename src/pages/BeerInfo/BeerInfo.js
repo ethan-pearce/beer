@@ -44,7 +44,7 @@ const Breweries = ({breweries}) => {
               <Link to={`/brewery/${id}`} className={'breweryName'}>{name}</Link>
               <a className={'breweryLink'} href={href}>{href}</a>
               <img className={'breweryImage'} alt={name} src={image}/>
-              <Locations locations={locations}/>
+              <Locations locations={locations} breweryName={name}/>
             </li>
           )
         })}
@@ -52,7 +52,7 @@ const Breweries = ({breweries}) => {
   )
 }
 
-const Locations = ({locations}) => {
+const Locations = ({locations, breweryName}) => {
   if(locations.length <= 0){
     return null;
   }
@@ -65,10 +65,12 @@ const Locations = ({locations}) => {
           const { id, name, type, region, postalCode } = location;
           return (
             <li key={id} className={'location'}>
-              <p>{name}</p>
-              <p>{`Type: ${type}`}</p>
-              <p>{region}</p>
-              <p>{postalCode}</p>
+              <a href={`https://www.google.com/maps/search/?api=1&query=${breweryName}+${name}+${region}+${postalCode}`}>
+                <p>{name}</p>
+                <p>{`Type: ${type}`}</p>
+                <p>{region}</p>
+                <p>{postalCode}</p>
+              </a>
             </li>
           )
         })}
