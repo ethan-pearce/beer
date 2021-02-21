@@ -26,6 +26,9 @@ exports[`BeerList Component should render with data 1`] = `
     <div>
       Sorry something went wrong
     </div>
+    <p>
+      1100 Results
+    </p>
     <ul
       class="beerList"
     >

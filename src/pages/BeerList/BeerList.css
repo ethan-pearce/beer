@@ -29,3 +29,9 @@
     float: left;
     padding-left: 4px;
 }
+
+.totalResults{
+    text-align: left;
+    margin: 0 16px;
+    font-weight: 300;
+}

@@ -3,6 +3,7 @@ import { mapBeer } from '../utils/mapBeer'
 
 export const useGetBeers = (breweryId) => {
     const [beers, setBeers] = useState([])
+    const [info, setInfo] = useState({})
     const [loading, setLoading] = useState(true)
     const [error, setError] = useState(false)
 
@@ -21,6 +22,11 @@ export const useGetBeers = (breweryId) => {
             })
             .then((json) => {
                 setBeers(mapBeers(json.data))
+                setInfo({
+                    totalResults: json.totalResults,
+                    numberOfPages: json.numberOfPages,
+                    currentPage: json.currentPage
+                })
                 setLoading(false)
             })
             .catch(() => {
@@ -31,6 +37,7 @@ export const useGetBeers = (breweryId) => {
 
     return {
         beers,
+        info,
         loading,
         error,
     }

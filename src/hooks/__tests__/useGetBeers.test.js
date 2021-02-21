@@ -16,6 +16,7 @@ describe('when the request to beers info is successful', () => {
         const { result, waitForNextUpdate } = renderHook(() => useGetBeers())
 
         expect(result.current.beers).toEqual([])
+        expect(result.current.info).toEqual({})
         expect(result.current.loading).toBe(true)
         expect(result.current.error).toBe(false)
 
@@ -24,6 +25,7 @@ describe('when the request to beers info is successful', () => {
         })
 
         expect(result.current.beers).toMatchSnapshot()
+        expect(result.current.info).toEqual({ totalResults: 1109, numberOfPages: 23, currentPage: 1})
         expect(result.current.loading).toBe(false)
         expect(result.current.error).toBe(false)
     })
@@ -48,6 +50,7 @@ describe('when the request to beers info fails due to a bad response', () => {
         })
 
         expect(result.current.beers).toEqual([])
+        expect(result.current.info).toEqual({})
         expect(result.current.loading).toBe(false)
         expect(result.current.error).toBe(true)
     })

@@ -20,6 +20,13 @@
     margin: 16px 16px 16px 8px;
 }
 
+@media only screen and (max-width: 1023px) {
+    .beerDescription {
+        max-height: 138px;
+        overflow: scroll;
+    }
+}
+
 .location{
     margin: 16px;
     border: 1px solid;
@@ -51,11 +58,12 @@
     text-align: left;
     font-size: 60px;
     font-weight: 300;
-    background-color: #353535;
+    background-color: #d8541d;
     width: fit-content;
     color: white;
     padding: 0 8px 8px;
     display: block;
+    line-height: 50px;
 }
 
 .breweryName:hover {
