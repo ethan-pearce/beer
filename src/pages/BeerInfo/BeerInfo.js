@@ -1,11 +1,11 @@
 import './BeerInfo.css';
 import React, { useContext } from 'react';
 import { useGetBeer } from '../../hooks/useGetBeer'
-import { useParams, Link } from "react-router-dom";
+import { useParams } from "react-router-dom";
 import BeerHeader from '../../components/BeerHeader/BeerHeader'
 import BeerContext from '../../app/BeerContext'
 import Loading from '../../components/Loading/Loading'
-import Locations from '../../components/Locations/Locations'
+import Breweries from '../../components/Breweries/Breweries'
 
 const BeerInfo = () => {
   let params = useParams();
@@ -34,21 +34,3 @@ const BeerInfo = () => {
 }
 
 export default BeerInfo;
-
-const Breweries = ({breweries}) => {
-  return (
-      <ul className={'breweries'}>
-        {breweries.map(brewery => {
-          const { href, name, image, locations, id } = brewery;
-          return (
-            <li key={id} className={'brewery'}>
-              <Link to={`/brewery/${id}`} className={'breweryName'}>{name}</Link>
-              <a className={'breweryLink'} href={href} rel="noreferrer" target="_blank">{href}</a>
-              <img className={'breweryImage'} alt={name} src={image}/>
-              <Locations locations={locations} breweryName={name}/>
-            </li>
-          )
-        })}
-    </ul>
-  )
-}

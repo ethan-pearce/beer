@@ -1,0 +1,98 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Breweries Component should render 1`] = `
+<div>
+  <ul
+    class="breweries"
+  >
+    <li
+      class="brewery"
+    >
+      <a
+        class="breweryName"
+        href="/brewery/1"
+      >
+        test name 1
+      </a>
+      <a
+        class="breweryLink"
+        href="https://test.com/"
+        rel="noreferrer"
+        target="_blank"
+      >
+        https://test.com/
+      </a>
+      <img
+        alt="test name 1"
+        class="breweryImage"
+        src="https://test.com/test.jpg"
+      />
+      <p
+        class="LocationTitle"
+      >
+        Locations:
+      </p>
+      <ul
+        class="locations"
+      >
+        <li
+          class="location"
+        >
+          <a
+            href="https://www.google.com/maps/search/?api=1&query=test name 1+test name 1+test region 1+00001"
+            rel="noreferrer"
+            target="_blank"
+          >
+            <p>
+              test name 1
+            </p>
+            <p>
+              Type: test type 1
+            </p>
+            <p>
+              test region 1
+            </p>
+            <p>
+              00001
+            </p>
+          </a>
+        </li>
+      </ul>
+    </li>
+  </ul>
+</div>
+`;
+
+exports[`Breweries Component should render with no locations if none are passed 1`] = `
+<div>
+  <ul
+    class="breweries"
+  >
+    <li
+      class="brewery"
+    >
+      <a
+        class="breweryName"
+        href="/brewery/1"
+      >
+        test name 1
+      </a>
+      <a
+        class="breweryLink"
+        href="https://test.com/"
+        rel="noreferrer"
+        target="_blank"
+      >
+        https://test.com/
+      </a>
+      <img
+        alt="test name 1"
+        class="breweryImage"
+        src="https://test.com/test.jpg"
+      />
+    </li>
+  </ul>
+</div>
+`;
+
+exports[`Breweries Component should return null if not breweries passed 1`] = `<div />`;
