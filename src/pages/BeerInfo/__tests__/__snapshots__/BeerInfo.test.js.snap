@@ -52,6 +52,8 @@ exports[`BeerInfo Component should render with beer info 1`] = `
         <a
           class="breweryLink"
           href="http://www.sierranevada.com/"
+          rel="noreferrer"
+          target="_blank"
         >
           http://www.sierranevada.com/
         </a>
@@ -73,6 +75,8 @@ exports[`BeerInfo Component should render with beer info 1`] = `
           >
             <a
               href="https://www.google.com/maps/search/?api=1&query=Sierra Nevada Brewing Company+Main Brewery+California+95928"
+              rel="noreferrer"
+              target="_blank"
             >
               <p>
                 Main Brewery
@@ -93,6 +97,8 @@ exports[`BeerInfo Component should render with beer info 1`] = `
           >
             <a
               href="https://www.google.com/maps/search/?api=1&query=Sierra Nevada Brewing Company+Asheville+North Carolina+28732"
+              rel="noreferrer"
+              target="_blank"
             >
               <p>
                 Asheville

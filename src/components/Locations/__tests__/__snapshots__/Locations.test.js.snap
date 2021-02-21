@@ -1,0 +1,61 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Location Component should render 1`] = `
+<div>
+  <p
+    class="LocationTitle"
+  >
+    Locations:
+  </p>
+  <ul
+    class="locations"
+  >
+    <li
+      class="location"
+    >
+      <a
+        href="https://www.google.com/maps/search/?api=1&query=undefined+test name 1+test region 1+00001"
+        rel="noreferrer"
+        target="_blank"
+      >
+        <p>
+          test name 1
+        </p>
+        <p>
+          Type: test type 1
+        </p>
+        <p>
+          test region 1
+        </p>
+        <p>
+          00001
+        </p>
+      </a>
+    </li>
+    <li
+      class="location"
+    >
+      <a
+        href="https://www.google.com/maps/search/?api=1&query=undefined+test name 2+test region 2+00002"
+        rel="noreferrer"
+        target="_blank"
+      >
+        <p>
+          test name 2
+        </p>
+        <p>
+          Type: test type 2
+        </p>
+        <p>
+          test region 2
+        </p>
+        <p>
+          00002
+        </p>
+      </a>
+    </li>
+  </ul>
+</div>
+`;
+
+exports[`Location Component should return null if not locations passed 1`] = `<div />`;

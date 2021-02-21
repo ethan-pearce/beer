@@ -27,33 +27,6 @@
     }
 }
 
-.location{
-    margin: 16px;
-    border: 1px solid;
-}
-
-.location:hover{
-    margin: 16px;
-    border: 1px solid lightgray;
-}
-
-.locations{
-    display: grid;
-    grid-template-columns: repeat(4, 25%);
-}
-
-@media only screen and (max-width: 1023px) {
-    .locations {
-        display: grid;
-        grid-template-columns: repeat(2, 50%);
-    }
-  }
-
-.LocationTitle {
-    text-align: left;
-    padding:  0 16px;
-}
-
 .breweryName {
     text-align: left;
     font-size: 60px;
@@ -76,6 +49,11 @@
     font-size: 32px;
     display: block;
     width: fit-content;
+}
+
+
+.breweryLink:hover {
+    text-decoration: underline;
 }
 
 .breweryImage {

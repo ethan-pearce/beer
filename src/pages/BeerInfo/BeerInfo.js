@@ -1,10 +1,11 @@
-import React, { useContext } from 'react';
 import './BeerInfo.css';
+import React, { useContext } from 'react';
 import { useGetBeer } from '../../hooks/useGetBeer'
 import { useParams, Link } from "react-router-dom";
 import BeerHeader from '../../components/BeerHeader/BeerHeader'
 import BeerContext from '../../app/BeerContext'
 import Loading from '../../components/Loading/Loading'
+import Locations from '../../components/Locations/Locations'
 
 const BeerInfo = () => {
   let params = useParams();
@@ -42,39 +43,12 @@ const Breweries = ({breweries}) => {
           return (
             <li key={id} className={'brewery'}>
               <Link to={`/brewery/${id}`} className={'breweryName'}>{name}</Link>
-              <a className={'breweryLink'} href={href}>{href}</a>
+              <a className={'breweryLink'} href={href} rel="noreferrer" target="_blank">{href}</a>
               <img className={'breweryImage'} alt={name} src={image}/>
               <Locations locations={locations} breweryName={name}/>
             </li>
           )
         })}
     </ul>
-  )
-}
-
-const Locations = ({locations, breweryName}) => {
-  if(locations.length <= 0){
-    return null;
-  }
-
-  return (
-    <>
-      <p className={'LocationTitle'}>Locations:</p>
-      <ul className={'locations'}>
-        {locations.map(location => {
-          const { id, name, type, region, postalCode } = location;
-          return (
-            <li key={id} className={'location'}>
-              <a href={`https://www.google.com/maps/search/?api=1&query=${breweryName}+${name}+${region}+${postalCode}`}>
-                <p>{name}</p>
-                <p>{`Type: ${type}`}</p>
-                <p>{region}</p>
-                <p>{postalCode}</p>
-              </a>
-            </li>
-          )
-        })}
-      </ul>
-    </>
   )
 }
