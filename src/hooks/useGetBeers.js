@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react'
 import { mapBeer } from '../utils/mapBeer'
 
-export const useGetBeers = (breweryId) => {
+export const useGetBeers = (breweryId, pageNumber = 1) => {
     const [beers, setBeers] = useState([])
     const [info, setInfo] = useState({})
     const [loading, setLoading] = useState(true)
@@ -13,7 +13,7 @@ export const useGetBeers = (breweryId) => {
     useEffect(() => {
         setLoading(true)
 
-        fetch(`${baseUrl}${path}?key=816ecbe13a87ec829cd5aef047ca5c0a&p=1`)
+        fetch(`${baseUrl}${path}?key=816ecbe13a87ec829cd5aef047ca5c0a&p=${pageNumber}`)
             .then((res) => {
                 if (!res.ok) {
                     setError(true)
@@ -33,7 +33,7 @@ export const useGetBeers = (breweryId) => {
                 setError(true)
                 setLoading(false)
             })
-    }, [breweryId])
+    }, [breweryId, pageNumber])
 
     return {
         beers,

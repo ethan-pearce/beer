@@ -11,6 +11,7 @@ exports[`BeerList Component should render loading 1`] = `
       Loading ....
     </div>
     <img
+      alt="loading"
       class="loadingImage"
       src="https://media4.giphy.com/media/dt91SdhwBusuZalJkG/giphy.gif?cid=ecf05e4769y62aeey7sw7k7bcuiu66q3qyjobrh2exgafgl6&rid=giphy.gif"
     />
@@ -26,7 +27,9 @@ exports[`BeerList Component should render with data 1`] = `
     <div>
       Sorry something went wrong
     </div>
-    <p>
+    <p
+      class="totalResults"
+    >
       1100 Results
     </p>
     <ul
@@ -51,6 +54,7 @@ exports[`BeerList Component should render with data 1`] = `
           <img
             alt="'Murican Pilsner"
             class="beerImage"
+            loading="lazy"
             src="https://brewerydb-images.s3.amazonaws.com/beer/c4f2KE/upload_jjKJ7g-medium.png"
           />
         </a>
@@ -74,6 +78,7 @@ exports[`BeerList Component should render with data 1`] = `
           <img
             alt="11.5° PLATO"
             class="beerImage"
+            loading="lazy"
             src="https://res.cloudinary.com/teepublic/image/private/s--TsohP-Cw--/t_Resized%20Artwork/c_fit,g_north_west,h_954,w_954/co_191919,e_outline:48/co_191919,e_outline:inner_fill:48/co_ffffff,e_outline:48/co_ffffff,e_outline:inner_fill:48/co_bbbbbb,e_outline:3:1000/c_mpad,g_center,h_1260,w_1260/b_rgb:eeeeee/c_limit,f_auto,h_630,q_90,w_630/v1513360267/production/designs/2182073_1.jpg"
           />
         </a>
@@ -97,6 +102,7 @@ exports[`BeerList Component should render with data 1`] = `
           <img
             alt="12th Of Never"
             class="beerImage"
+            loading="lazy"
             src="https://brewerydb-images.s3.amazonaws.com/beer/zfP2fK/upload_nSMNjh-medium.png"
           />
         </a>
@@ -120,6 +126,7 @@ exports[`BeerList Component should render with data 1`] = `
           <img
             alt="15th Anniversary Ale"
             class="beerImage"
+            loading="lazy"
             src="https://res.cloudinary.com/teepublic/image/private/s--TsohP-Cw--/t_Resized%20Artwork/c_fit,g_north_west,h_954,w_954/co_191919,e_outline:48/co_191919,e_outline:inner_fill:48/co_ffffff,e_outline:48/co_ffffff,e_outline:inner_fill:48/co_bbbbbb,e_outline:3:1000/c_mpad,g_center,h_1260,w_1260/b_rgb:eeeeee/c_limit,f_auto,h_630,q_90,w_630/v1513360267/production/designs/2182073_1.jpg"
           />
         </a>
@@ -143,6 +150,7 @@ exports[`BeerList Component should render with data 1`] = `
           <img
             alt="16 So Fine Red Wheat Wine"
             class="beerImage"
+            loading="lazy"
             src="https://brewerydb-images.s3.amazonaws.com/beer/UJGpVS/upload_K4w7gB-medium.png"
           />
         </a>
@@ -166,6 +174,7 @@ exports[`BeerList Component should render with data 1`] = `
           <img
             alt="1794 The Fergal Project"
             class="beerImage"
+            loading="lazy"
             src="https://res.cloudinary.com/teepublic/image/private/s--TsohP-Cw--/t_Resized%20Artwork/c_fit,g_north_west,h_954,w_954/co_191919,e_outline:48/co_191919,e_outline:inner_fill:48/co_ffffff,e_outline:48/co_ffffff,e_outline:inner_fill:48/co_bbbbbb,e_outline:3:1000/c_mpad,g_center,h_1260,w_1260/b_rgb:eeeeee/c_limit,f_auto,h_630,q_90,w_630/v1513360267/production/designs/2182073_1.jpg"
           />
         </a>
@@ -189,6 +198,7 @@ exports[`BeerList Component should render with data 1`] = `
           <img
             alt="17th Saison"
             class="beerImage"
+            loading="lazy"
             src="https://res.cloudinary.com/teepublic/image/private/s--TsohP-Cw--/t_Resized%20Artwork/c_fit,g_north_west,h_954,w_954/co_191919,e_outline:48/co_191919,e_outline:inner_fill:48/co_ffffff,e_outline:48/co_ffffff,e_outline:inner_fill:48/co_bbbbbb,e_outline:3:1000/c_mpad,g_center,h_1260,w_1260/b_rgb:eeeeee/c_limit,f_auto,h_630,q_90,w_630/v1513360267/production/designs/2182073_1.jpg"
           />
         </a>
@@ -212,6 +222,7 @@ exports[`BeerList Component should render with data 1`] = `
           <img
             alt="18th Anniversary Belgian Tripel"
             class="beerImage"
+            loading="lazy"
             src="https://brewerydb-images.s3.amazonaws.com/beer/Yd8G8r/upload_tFSifO-medium.png"
           />
         </a>
@@ -235,6 +246,7 @@ exports[`BeerList Component should render with data 1`] = `
           <img
             alt="19 - Golden Belgian Style Ale"
             class="beerImage"
+            loading="lazy"
             src="https://brewerydb-images.s3.amazonaws.com/beer/iJ329Y/upload_LBXagO-medium.png"
           />
         </a>
@@ -258,6 +270,7 @@ exports[`BeerList Component should render with data 1`] = `
           <img
             alt="1904 American Red Lager"
             class="beerImage"
+            loading="lazy"
             src="https://res.cloudinary.com/teepublic/image/private/s--TsohP-Cw--/t_Resized%20Artwork/c_fit,g_north_west,h_954,w_954/co_191919,e_outline:48/co_191919,e_outline:inner_fill:48/co_ffffff,e_outline:48/co_ffffff,e_outline:inner_fill:48/co_bbbbbb,e_outline:3:1000/c_mpad,g_center,h_1260,w_1260/b_rgb:eeeeee/c_limit,f_auto,h_630,q_90,w_630/v1513360267/production/designs/2182073_1.jpg"
           />
         </a>
@@ -281,6 +294,7 @@ exports[`BeerList Component should render with data 1`] = `
           <img
             alt="2 x 4"
             class="beerImage"
+            loading="lazy"
             src="https://brewerydb-images.s3.amazonaws.com/beer/qGDeH1/upload_yrbAAo-medium.png"
           />
         </a>
@@ -304,6 +318,7 @@ exports[`BeerList Component should render with data 1`] = `
           <img
             alt="200th Anniversary Export Stout"
             class="beerImage"
+            loading="lazy"
             src="https://brewerydb-images.s3.amazonaws.com/beer/MgdJep/upload_Z7FPX3-medium.png"
           />
         </a>
@@ -327,6 +342,7 @@ exports[`BeerList Component should render with data 1`] = `
           <img
             alt="2017 Beer Camp (2017)"
             class="beerImage"
+            loading="lazy"
             src="https://brewerydb-images.s3.amazonaws.com/beer/ISTT06/upload_uNRmiy-medium.png"
           />
         </a>
@@ -350,6 +366,7 @@ exports[`BeerList Component should render with data 1`] = `
           <img
             alt="20th Anniversary Imperial Hash IPA on Brett"
             class="beerImage"
+            loading="lazy"
             src="https://res.cloudinary.com/teepublic/image/private/s--TsohP-Cw--/t_Resized%20Artwork/c_fit,g_north_west,h_954,w_954/co_191919,e_outline:48/co_191919,e_outline:inner_fill:48/co_ffffff,e_outline:48/co_ffffff,e_outline:inner_fill:48/co_bbbbbb,e_outline:3:1000/c_mpad,g_center,h_1260,w_1260/b_rgb:eeeeee/c_limit,f_auto,h_630,q_90,w_630/v1513360267/production/designs/2182073_1.jpg"
           />
         </a>
@@ -368,6 +385,7 @@ exports[`BeerList Component should render with data 1`] = `
           <img
             alt="20th Street Ale Citra"
             class="beerImage"
+            loading="lazy"
             src="https://brewerydb-images.s3.amazonaws.com/beer/uIgENV/upload_Y3uGi9-medium.png"
           />
         </a>
@@ -386,6 +404,7 @@ exports[`BeerList Component should render with data 1`] = `
           <img
             alt="20th Street Ale Crystal"
             class="beerImage"
+            loading="lazy"
             src="https://brewerydb-images.s3.amazonaws.com/beer/WcP2Ww/upload_fLddgs-medium.png"
           />
         </a>
@@ -404,6 +423,7 @@ exports[`BeerList Component should render with data 1`] = `
           <img
             alt="20th Street Ale Magnum"
             class="beerImage"
+            loading="lazy"
             src="https://brewerydb-images.s3.amazonaws.com/beer/HyxQE4/upload_ZXeOiC-medium.png"
           />
         </a>
@@ -427,6 +447,7 @@ exports[`BeerList Component should render with data 1`] = `
           <img
             alt="21st Anniversary"
             class="beerImage"
+            loading="lazy"
             src="https://res.cloudinary.com/teepublic/image/private/s--TsohP-Cw--/t_Resized%20Artwork/c_fit,g_north_west,h_954,w_954/co_191919,e_outline:48/co_191919,e_outline:inner_fill:48/co_ffffff,e_outline:48/co_ffffff,e_outline:inner_fill:48/co_bbbbbb,e_outline:3:1000/c_mpad,g_center,h_1260,w_1260/b_rgb:eeeeee/c_limit,f_auto,h_630,q_90,w_630/v1513360267/production/designs/2182073_1.jpg"
           />
         </a>
@@ -450,6 +471,7 @@ exports[`BeerList Component should render with data 1`] = `
           <img
             alt="25th Anniversary"
             class="beerImage"
+            loading="lazy"
             src="https://res.cloudinary.com/teepublic/image/private/s--TsohP-Cw--/t_Resized%20Artwork/c_fit,g_north_west,h_954,w_954/co_191919,e_outline:48/co_191919,e_outline:inner_fill:48/co_ffffff,e_outline:48/co_ffffff,e_outline:inner_fill:48/co_bbbbbb,e_outline:3:1000/c_mpad,g_center,h_1260,w_1260/b_rgb:eeeeee/c_limit,f_auto,h_630,q_90,w_630/v1513360267/production/designs/2182073_1.jpg"
           />
         </a>
@@ -473,6 +495,7 @@ exports[`BeerList Component should render with data 1`] = `
           <img
             alt="3 Weight"
             class="beerImage"
+            loading="lazy"
             src="https://res.cloudinary.com/teepublic/image/private/s--TsohP-Cw--/t_Resized%20Artwork/c_fit,g_north_west,h_954,w_954/co_191919,e_outline:48/co_191919,e_outline:inner_fill:48/co_ffffff,e_outline:48/co_ffffff,e_outline:inner_fill:48/co_bbbbbb,e_outline:3:1000/c_mpad,g_center,h_1260,w_1260/b_rgb:eeeeee/c_limit,f_auto,h_630,q_90,w_630/v1513360267/production/designs/2182073_1.jpg"
           />
         </a>
@@ -496,6 +519,7 @@ exports[`BeerList Component should render with data 1`] = `
           <img
             alt="30th Anniversary - Charlie, Fred & Ken's Bock"
             class="beerImage"
+            loading="lazy"
             src="https://brewerydb-images.s3.amazonaws.com/beer/f5CWb6/upload_PSAyRK-medium.png"
           />
         </a>
@@ -519,6 +543,7 @@ exports[`BeerList Component should render with data 1`] = `
           <img
             alt="30th Anniversary - Fritz and Ken's Ale"
             class="beerImage"
+            loading="lazy"
             src="https://brewerydb-images.s3.amazonaws.com/beer/0KEzfx/upload_9zYMPq-medium.png"
           />
         </a>
@@ -542,6 +567,7 @@ exports[`BeerList Component should render with data 1`] = `
           <img
             alt="30th Anniversary - Grand Cru"
             class="beerImage"
+            loading="lazy"
             src="https://res.cloudinary.com/teepublic/image/private/s--TsohP-Cw--/t_Resized%20Artwork/c_fit,g_north_west,h_954,w_954/co_191919,e_outline:48/co_191919,e_outline:inner_fill:48/co_ffffff,e_outline:48/co_ffffff,e_outline:inner_fill:48/co_bbbbbb,e_outline:3:1000/c_mpad,g_center,h_1260,w_1260/b_rgb:eeeeee/c_limit,f_auto,h_630,q_90,w_630/v1513360267/production/designs/2182073_1.jpg"
           />
         </a>
@@ -565,6 +591,7 @@ exports[`BeerList Component should render with data 1`] = `
           <img
             alt="30th Anniversary - Jack & Ken's Ale"
             class="beerImage"
+            loading="lazy"
             src="https://brewerydb-images.s3.amazonaws.com/beer/8M5lCq/upload_v5FHDf-medium.png"
           />
         </a>
@@ -588,6 +615,7 @@ exports[`BeerList Component should render with data 1`] = `
           <img
             alt="35th Anniversary  - Brewer's Reserve"
             class="beerImage"
+            loading="lazy"
             src="https://brewerydb-images.s3.amazonaws.com/beer/ajbd6g/upload_o0dl64-medium.png"
           />
         </a>
@@ -611,6 +639,7 @@ exports[`BeerList Component should render with data 1`] = `
           <img
             alt="420 Extra Pale Ale"
             class="beerImage"
+            loading="lazy"
             src="https://brewerydb-images.s3.amazonaws.com/beer/NoNhan/upload_FgWgmB-medium.png"
           />
         </a>
@@ -634,6 +663,7 @@ exports[`BeerList Component should render with data 1`] = `
           <img
             alt="420 Fest"
             class="beerImage"
+            loading="lazy"
             src="https://res.cloudinary.com/teepublic/image/private/s--TsohP-Cw--/t_Resized%20Artwork/c_fit,g_north_west,h_954,w_954/co_191919,e_outline:48/co_191919,e_outline:inner_fill:48/co_ffffff,e_outline:48/co_ffffff,e_outline:inner_fill:48/co_bbbbbb,e_outline:3:1000/c_mpad,g_center,h_1260,w_1260/b_rgb:eeeeee/c_limit,f_auto,h_630,q_90,w_630/v1513360267/production/designs/2182073_1.jpg"
           />
         </a>
@@ -657,6 +687,7 @@ exports[`BeerList Component should render with data 1`] = `
           <img
             alt="420 Strain G13 IPA"
             class="beerImage"
+            loading="lazy"
             src="https://brewerydb-images.s3.amazonaws.com/beer/jIKwgZ/upload_fypFIo-medium.png"
           />
         </a>
@@ -680,6 +711,7 @@ exports[`BeerList Component should render with data 1`] = `
           <img
             alt="471 Double IPA - Hull Melon"
             class="beerImage"
+            loading="lazy"
             src="https://brewerydb-images.s3.amazonaws.com/beer/lWygSS/upload_krkDHm-medium.png"
           />
         </a>
@@ -703,6 +735,7 @@ exports[`BeerList Component should render with data 1`] = `
           <img
             alt="471 ESB - Extra Special Bitter"
             class="beerImage"
+            loading="lazy"
             src="https://res.cloudinary.com/teepublic/image/private/s--TsohP-Cw--/t_Resized%20Artwork/c_fit,g_north_west,h_954,w_954/co_191919,e_outline:48/co_191919,e_outline:inner_fill:48/co_ffffff,e_outline:48/co_ffffff,e_outline:inner_fill:48/co_bbbbbb,e_outline:3:1000/c_mpad,g_center,h_1260,w_1260/b_rgb:eeeeee/c_limit,f_auto,h_630,q_90,w_630/v1513360267/production/designs/2182073_1.jpg"
           />
         </a>
@@ -726,6 +759,7 @@ exports[`BeerList Component should render with data 1`] = `
           <img
             alt="471 IPA Barrel Series: Citra"
             class="beerImage"
+            loading="lazy"
             src="https://res.cloudinary.com/teepublic/image/private/s--TsohP-Cw--/t_Resized%20Artwork/c_fit,g_north_west,h_954,w_954/co_191919,e_outline:48/co_191919,e_outline:inner_fill:48/co_ffffff,e_outline:48/co_ffffff,e_outline:inner_fill:48/co_bbbbbb,e_outline:3:1000/c_mpad,g_center,h_1260,w_1260/b_rgb:eeeeee/c_limit,f_auto,h_630,q_90,w_630/v1513360267/production/designs/2182073_1.jpg"
           />
         </a>
@@ -749,6 +783,7 @@ exports[`BeerList Component should render with data 1`] = `
           <img
             alt="471 IPA Barrel Series: Eureka!"
             class="beerImage"
+            loading="lazy"
             src="https://res.cloudinary.com/teepublic/image/private/s--TsohP-Cw--/t_Resized%20Artwork/c_fit,g_north_west,h_954,w_954/co_191919,e_outline:48/co_191919,e_outline:inner_fill:48/co_ffffff,e_outline:48/co_ffffff,e_outline:inner_fill:48/co_bbbbbb,e_outline:3:1000/c_mpad,g_center,h_1260,w_1260/b_rgb:eeeeee/c_limit,f_auto,h_630,q_90,w_630/v1513360267/production/designs/2182073_1.jpg"
           />
         </a>
@@ -772,6 +807,7 @@ exports[`BeerList Component should render with data 1`] = `
           <img
             alt="471 IPA. Aggressive Hoppiness"
             class="beerImage"
+            loading="lazy"
             src="https://res.cloudinary.com/teepublic/image/private/s--TsohP-Cw--/t_Resized%20Artwork/c_fit,g_north_west,h_954,w_954/co_191919,e_outline:48/co_191919,e_outline:inner_fill:48/co_ffffff,e_outline:48/co_ffffff,e_outline:inner_fill:48/co_bbbbbb,e_outline:3:1000/c_mpad,g_center,h_1260,w_1260/b_rgb:eeeeee/c_limit,f_auto,h_630,q_90,w_630/v1513360267/production/designs/2182073_1.jpg"
           />
         </a>
@@ -795,6 +831,7 @@ exports[`BeerList Component should render with data 1`] = `
           <img
             alt="471 Pilsner"
             class="beerImage"
+            loading="lazy"
             src="https://res.cloudinary.com/teepublic/image/private/s--TsohP-Cw--/t_Resized%20Artwork/c_fit,g_north_west,h_954,w_954/co_191919,e_outline:48/co_191919,e_outline:inner_fill:48/co_ffffff,e_outline:48/co_ffffff,e_outline:inner_fill:48/co_bbbbbb,e_outline:3:1000/c_mpad,g_center,h_1260,w_1260/b_rgb:eeeeee/c_limit,f_auto,h_630,q_90,w_630/v1513360267/production/designs/2182073_1.jpg"
           />
         </a>
@@ -818,6 +855,7 @@ exports[`BeerList Component should render with data 1`] = `
           <img
             alt="471 Small Batch IPA"
             class="beerImage"
+            loading="lazy"
             src="https://brewerydb-images.s3.amazonaws.com/beer/j9cp5e/upload_YlBItH-medium.png"
           />
         </a>
@@ -841,6 +879,7 @@ exports[`BeerList Component should render with data 1`] = `
           <img
             alt="5 C's IPA"
             class="beerImage"
+            loading="lazy"
             src="https://res.cloudinary.com/teepublic/image/private/s--TsohP-Cw--/t_Resized%20Artwork/c_fit,g_north_west,h_954,w_954/co_191919,e_outline:48/co_191919,e_outline:inner_fill:48/co_ffffff,e_outline:48/co_ffffff,e_outline:inner_fill:48/co_bbbbbb,e_outline:3:1000/c_mpad,g_center,h_1260,w_1260/b_rgb:eeeeee/c_limit,f_auto,h_630,q_90,w_630/v1513360267/production/designs/2182073_1.jpg"
           />
         </a>
@@ -869,6 +908,7 @@ exports[`BeerList Component should render with data 1`] = `
           <img
             alt="7 Birds"
             class="beerImage"
+            loading="lazy"
             src="https://res.cloudinary.com/teepublic/image/private/s--TsohP-Cw--/t_Resized%20Artwork/c_fit,g_north_west,h_954,w_954/co_191919,e_outline:48/co_191919,e_outline:inner_fill:48/co_ffffff,e_outline:48/co_ffffff,e_outline:inner_fill:48/co_bbbbbb,e_outline:3:1000/c_mpad,g_center,h_1260,w_1260/b_rgb:eeeeee/c_limit,f_auto,h_630,q_90,w_630/v1513360267/production/designs/2182073_1.jpg"
           />
         </a>
@@ -897,6 +937,7 @@ exports[`BeerList Component should render with data 1`] = `
           <img
             alt="7 Cities Pilsner"
             class="beerImage"
+            loading="lazy"
             src="https://brewerydb-images.s3.amazonaws.com/beer/Fhw2NF/upload_4QscTY-medium.png"
           />
         </a>
@@ -920,6 +961,7 @@ exports[`BeerList Component should render with data 1`] = `
           <img
             alt="72 Imperial"
             class="beerImage"
+            loading="lazy"
             src="https://brewerydb-images.s3.amazonaws.com/beer/MqTIG4/upload_0mNn6W-medium.png"
           />
         </a>
@@ -943,6 +985,7 @@ exports[`BeerList Component should render with data 1`] = `
           <img
             alt="A Beer Named Sue"
             class="beerImage"
+            loading="lazy"
             src="https://res.cloudinary.com/teepublic/image/private/s--TsohP-Cw--/t_Resized%20Artwork/c_fit,g_north_west,h_954,w_954/co_191919,e_outline:48/co_191919,e_outline:inner_fill:48/co_ffffff,e_outline:48/co_ffffff,e_outline:inner_fill:48/co_bbbbbb,e_outline:3:1000/c_mpad,g_center,h_1260,w_1260/b_rgb:eeeeee/c_limit,f_auto,h_630,q_90,w_630/v1513360267/production/designs/2182073_1.jpg"
           />
         </a>
@@ -966,6 +1009,7 @@ exports[`BeerList Component should render with data 1`] = `
           <img
             alt="A Little Sumpin' Extra"
             class="beerImage"
+            loading="lazy"
             src="https://brewerydb-images.s3.amazonaws.com/beer/Au0v9G/upload_K1Zc5E-medium.png"
           />
         </a>
@@ -989,6 +1033,7 @@ exports[`BeerList Component should render with data 1`] = `
           <img
             alt="A Little Sumpin' Sumpin'"
             class="beerImage"
+            loading="lazy"
             src="https://brewerydb-images.s3.amazonaws.com/beer/svXHfu/upload_i4Mwls-medium.png"
           />
         </a>
@@ -1012,6 +1057,7 @@ exports[`BeerList Component should render with data 1`] = `
           <img
             alt="ABLE Best Britter"
             class="beerImage"
+            loading="lazy"
             src="https://brewerydb-images.s3.amazonaws.com/beer/hbF6tu/upload_KtTfDY-medium.png"
           />
         </a>
@@ -1035,6 +1081,7 @@ exports[`BeerList Component should render with data 1`] = `
           <img
             alt="Afternooner"
             class="beerImage"
+            loading="lazy"
             src="https://res.cloudinary.com/teepublic/image/private/s--TsohP-Cw--/t_Resized%20Artwork/c_fit,g_north_west,h_954,w_954/co_191919,e_outline:48/co_191919,e_outline:inner_fill:48/co_ffffff,e_outline:48/co_ffffff,e_outline:inner_fill:48/co_bbbbbb,e_outline:3:1000/c_mpad,g_center,h_1260,w_1260/b_rgb:eeeeee/c_limit,f_auto,h_630,q_90,w_630/v1513360267/production/designs/2182073_1.jpg"
           />
         </a>
@@ -1058,6 +1105,7 @@ exports[`BeerList Component should render with data 1`] = `
           <img
             alt="Agave Wheat"
             class="beerImage"
+            loading="lazy"
             src="https://brewerydb-images.s3.amazonaws.com/beer/6AcqY6/upload_NDHDT6-medium.png"
           />
         </a>
@@ -1081,6 +1129,7 @@ exports[`BeerList Component should render with data 1`] = `
           <img
             alt="Ale 20"
             class="beerImage"
+            loading="lazy"
             src="https://brewerydb-images.s3.amazonaws.com/beer/RK9Po6/upload_wGYxyS-medium.png"
           />
         </a>
@@ -1104,6 +1153,7 @@ exports[`BeerList Component should render with data 1`] = `
           <img
             alt="Ale Communication"
             class="beerImage"
+            loading="lazy"
             src="https://res.cloudinary.com/teepublic/image/private/s--TsohP-Cw--/t_Resized%20Artwork/c_fit,g_north_west,h_954,w_954/co_191919,e_outline:48/co_191919,e_outline:inner_fill:48/co_ffffff,e_outline:48/co_ffffff,e_outline:inner_fill:48/co_bbbbbb,e_outline:3:1000/c_mpad,g_center,h_1260,w_1260/b_rgb:eeeeee/c_limit,f_auto,h_630,q_90,w_630/v1513360267/production/designs/2182073_1.jpg"
           />
         </a>
@@ -1127,6 +1177,7 @@ exports[`BeerList Component should render with data 1`] = `
           <img
             alt="All Colorado Apricot Wheat"
             class="beerImage"
+            loading="lazy"
             src="https://brewerydb-images.s3.amazonaws.com/beer/2cLm8B/upload_r59XGe-medium.png"
           />
         </a>
@@ -1150,6 +1201,7 @@ exports[`BeerList Component should render with data 1`] = `
           <img
             alt="All Colorado Wet Hop Pale Ale"
             class="beerImage"
+            loading="lazy"
             src="https://brewerydb-images.s3.amazonaws.com/beer/DbeLZF/upload_BuoLMV-medium.png"
           />
         </a>
@@ -1173,6 +1225,7 @@ exports[`BeerList Component should render with data 1`] = `
           <img
             alt="Alpha Dog Imperial IPA"
             class="beerImage"
+            loading="lazy"
             src="https://brewerydb-images.s3.amazonaws.com/beer/aG4Ie2/upload_yX4wkY-medium.png"
           />
         </a>

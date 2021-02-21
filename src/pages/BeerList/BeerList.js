@@ -29,7 +29,7 @@ const BeerList = () => {
                             <li key={id} className={'beerItem'}>
                                 <Link to={`/beer-info/${id}`} onClick={() => setBeer({ name, style, organic })}>
                                     <BeerHeader title={name} subTitle={style} organic={organic} />
-                                    <img src={image} alt={name} className={'beerImage'}/>
+                                    <img src={image} alt={name} className={'beerImage'} loading="lazy"/>
                                 </Link>
                             </li>
                         )
