@@ -16,7 +16,7 @@ const BeerList = () => {
         <div className={'container'}>
         {loading && <Loading />}
         {error && <div>Sorry something went wrong</div>}
-        {!loading && 
+        {!loading &&
             <>
             {totalResults &&
                 <p className={'totalResults'}>{`${totalResults} Results`}</p>
@@ -40,6 +40,6 @@ const BeerList = () => {
         }
       </div>
     );
-  }
-  
-  export default BeerList;
+}
+
+export default BeerList;
